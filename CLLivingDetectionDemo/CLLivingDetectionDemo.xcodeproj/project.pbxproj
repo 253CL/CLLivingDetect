@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538B39B66015D8E0AE48E70D /* Pods_CLLivingDetectionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA544B94ABF36BBE8CE1F354 /* Pods_CLLivingDetectionDemo.framework */; };
+		A115318828E3E88B001AC37B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A115318728E3E88B001AC37B /* AppDelegate.m */; };
+		A115318E28E3E88B001AC37B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A115318D28E3E88B001AC37B /* ViewController.m */; };
+		A115319128E3E88B001AC37B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A115318F28E3E88B001AC37B /* Main.storyboard */; };
+		A115319328E3E88C001AC37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A115319228E3E88C001AC37B /* Assets.xcassets */; };
+		A115319628E3E88C001AC37B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A115319428E3E88C001AC37B /* LaunchScreen.storyboard */; };
+		A115319928E3E88C001AC37B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A115319828E3E88C001AC37B /* main.m */; };
+		A11531EB28E3EED0001AC37B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11531EA28E3EED0001AC37B /* CoreGraphics.framework */; };
+		A11531ED28E3EED8001AC37B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11531EC28E3EED8001AC37B /* Accelerate.framework */; };
+		A11531EF28E3EEDE001AC37B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11531EE28E3EEDE001AC37B /* SystemConfiguration.framework */; };
+		A11531F128E3EEE8001AC37B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11531F028E3EEE8001AC37B /* AssetsLibrary.framework */; };
+		A11531F328E3EEF1001AC37B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11531F228E3EEF1001AC37B /* CoreTelephony.framework */; };
+		A11531F528E3EEF8001AC37B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11531F428E3EEF8001AC37B /* QuartzCore.framework */; };
+		A11531F728E3EF03001AC37B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11531F628E3EF03001AC37B /* CoreLocation.framework */; };
+		A11531F928E3EF0C001AC37B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11531F828E3EF0C001AC37B /* CoreImage.framework */; };
+		A11531FD28E3F13E001AC37B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11531FC28E3F13E001AC37B /* CoreMedia.framework */; };
+		A11531FF28E3F145001AC37B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11531FE28E3F145001AC37B /* AVFoundation.framework */; };
+		A115320128E3F14B001AC37B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115320028E3F14B001AC37B /* WebKit.framework */; };
+		A115320328E3F156001AC37B /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A115320228E3F156001AC37B /* libresolv.tbd */; };
+		A115320528E3F15D001AC37B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A115320428E3F15D001AC37B /* libz.tbd */; };
+		A115320728E3F167001AC37B /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A115320628E3F167001AC37B /* libc++.1.tbd */; };
+		A115320928E3F174001AC37B /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A115320828E3F174001AC37B /* libc++abi.tbd */; };
+		A115320B28E3F17D001AC37B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115320A28E3F17D001AC37B /* AudioToolbox.framework */; };
+		A115320D28E3F182001AC37B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115320C28E3F182001AC37B /* CFNetwork.framework */; };
+		A115320F28E3F189001AC37B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115320E28E3F189001AC37B /* MobileCoreServices.framework */; };
+		A115321128E3F192001AC37B /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A115321028E3F192001AC37B /* libz.1.2.8.tbd */; };
+		A115321328E3F198001AC37B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115321228E3F198001AC37B /* AdSupport.framework */; };
+		A120B27828FF994F0004B992 /* CLLivingDetectSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A120B27728FF994F0004B992 /* CLLivingDetectSDK.framework */; };
+		A130817D2915102F005CC8FA /* CLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A130817C2915102F005CC8FA /* CLTool.m */; };
+		A15C9F2329234419005E9851 /* CLLivingDetectSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15C9F2229234419005E9851 /* CLLivingDetectSDK.framework */; };
+		A1899407291C944D0089EA07 /* NSObject+JMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1899404291C944D0089EA07 /* NSObject+JMModel.m */; };
+		A1899408291C944D0089EA07 /* JMClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A1899405291C944D0089EA07 /* JMClassInfo.m */; };
+		A1B47F4629151E65000908FF /* ZolozMobileRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3929151E65000908FF /* ZolozMobileRPC.framework */; };
+		A1B47F4729151E65000908FF /* AliyunIdentityManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3A29151E65000908FF /* AliyunIdentityManager.framework */; };
+		A1B47F4829151E65000908FF /* BioAuthAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3B29151E65000908FF /* BioAuthAPI.framework */; };
+		A1B47F4929151E65000908FF /* MPRemoteLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3C29151E65000908FF /* MPRemoteLogging.framework */; };
+		A1B47F4A29151E65000908FF /* ZolozUIModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3D29151E65000908FF /* ZolozUIModule.framework */; };
+		A1B47F4B29151E65000908FF /* ZolozUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3E29151E65000908FF /* ZolozUtility.framework */; };
+		A1B47F4C29151E65000908FF /* ToygerService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3F29151E65000908FF /* ToygerService.framework */; };
+		A1B47F4D29151E65000908FF /* ToygerNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4029151E65000908FF /* ToygerNative.framework */; };
+		A1B47F4E29151E65000908FF /* APPSecuritySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4129151E65000908FF /* APPSecuritySDK.framework */; };
+		A1B47F4F29151E65000908FF /* ZolozSensorServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4229151E65000908FF /* ZolozSensorServices.framework */; };
+		A1B47F5029151E65000908FF /* APBToygerFacade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4329151E65000908FF /* APBToygerFacade.framework */; };
+		A1B47F5129151E65000908FF /* OCRDetectSDKForTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4429151E65000908FF /* OCRDetectSDKForTech.framework */; };
+		A1B47F5229151E65000908FF /* BioAuthEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4529151E65000908FF /* BioAuthEngine.framework */; };
+		A1B47F5429151E8F000908FF /* ToygerNative.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1B47F5329151E8F000908FF /* ToygerNative.bundle */; };
+		A1B47F5629151EA3000908FF /* OCRXMedia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1B47F5529151EA3000908FF /* OCRXMedia.bundle */; };
+		A1B47F5829151EAF000908FF /* BioAuthEngine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1B47F5729151EAF000908FF /* BioAuthEngine.bundle */; };
+		A1B47F5A29151EBB000908FF /* APBToygerFacade.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1B47F5929151EBB000908FF /* APBToygerFacade.bundle */; };
+		A1B47F5C29152054000908FF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F5B29152053000908FF /* CoreFoundation.framework */; };
+		A1B47F5E29152063000908FF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F5D29152062000908FF /* ImageIO.framework */; };
+		A1B47F6029152073000908FF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F5F29152072000908FF /* CoreMotion.framework */; };
+		A1B47F6429189ADF000908FF /* CLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B47F6229189ADF000908FF /* CLSettingViewController.m */; };
+		A1B47F6529189ADF000908FF /* CLSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1B47F6329189ADF000908FF /* CLSettingViewController.xib */; };
+		A1B47F6B2918A8E5000908FF /* CLSettingActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B47F6A2918A8E5000908FF /* CLSettingActionCell.m */; };
+		A1C693D9291B537000D11298 /* CLConsoleBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1C693D8291B537000D11298 /* CLConsoleBundle.bundle */; };
+		A1C693DB291B537500D11298 /* CLConsole.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C693DA291B537500D11298 /* CLConsole.framework */; };
+		A1C693DE291B964100D11298 /* CLTestSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C693DD291B964100D11298 /* CLTestSettingModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20CDF096BF0FF2E3AF5AA4CA /* Pods-CLLivingDetectionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLLivingDetectionDemo.debug.xcconfig"; path = "Target Support Files/Pods-CLLivingDetectionDemo/Pods-CLLivingDetectionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A115318328E3E88B001AC37B /* CLLivingDetectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLLivingDetectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A115318628E3E88B001AC37B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A115318728E3E88B001AC37B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A115318C28E3E88B001AC37B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A115318D28E3E88B001AC37B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A115319028E3E88B001AC37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A115319228E3E88C001AC37B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A115319528E3E88C001AC37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A115319728E3E88C001AC37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A115319828E3E88C001AC37B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A11531EA28E3EED0001AC37B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A11531EC28E3EED8001AC37B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A11531EE28E3EEDE001AC37B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A11531F028E3EEE8001AC37B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A11531F228E3EEF1001AC37B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A11531F428E3EEF8001AC37B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A11531F628E3EF03001AC37B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A11531F828E3EF0C001AC37B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A11531FC28E3F13E001AC37B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A11531FE28E3F145001AC37B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A115320028E3F14B001AC37B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A115320228E3F156001AC37B /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		A115320428E3F15D001AC37B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A115320628E3F167001AC37B /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		A115320828E3F174001AC37B /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		A115320A28E3F17D001AC37B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A115320C28E3F182001AC37B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A115320E28E3F189001AC37B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A115321028E3F192001AC37B /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		A115321228E3F198001AC37B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		A120B27728FF994F0004B992 /* CLLivingDetectSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CLLivingDetectSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A130817A2915102F005CC8FA /* CLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTool.h; sourceTree = "<group>"; };
+		A130817C2915102F005CC8FA /* CLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTool.m; sourceTree = "<group>"; };
+		A132A8072914ABB100986266 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A15C9F2029221B9A005E9851 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A15C9F2129221B9A005E9851 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A15C9F2229234419005E9851 /* CLLivingDetectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CLLivingDetectSDK.framework; sourceTree = "<group>"; };
+		A1899402291C944D0089EA07 /* JMClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMClassInfo.h; sourceTree = "<group>"; };
+		A1899403291C944D0089EA07 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		A1899404291C944D0089EA07 /* NSObject+JMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JMModel.m"; sourceTree = "<group>"; };
+		A1899405291C944D0089EA07 /* JMClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMClassInfo.m; sourceTree = "<group>"; };
+		A1899406291C944D0089EA07 /* NSObject+JMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JMModel.h"; sourceTree = "<group>"; };
+		A1B47F3929151E65000908FF /* ZolozMobileRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozMobileRPC.framework; sourceTree = "<group>"; };
+		A1B47F3A29151E65000908FF /* AliyunIdentityManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunIdentityManager.framework; sourceTree = "<group>"; };
+		A1B47F3B29151E65000908FF /* BioAuthAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthAPI.framework; sourceTree = "<group>"; };
+		A1B47F3C29151E65000908FF /* MPRemoteLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPRemoteLogging.framework; sourceTree = "<group>"; };
+		A1B47F3D29151E65000908FF /* ZolozUIModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozUIModule.framework; sourceTree = "<group>"; };
+		A1B47F3E29151E65000908FF /* ZolozUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozUtility.framework; sourceTree = "<group>"; };
+		A1B47F3F29151E65000908FF /* ToygerService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToygerService.framework; sourceTree = "<group>"; };
+		A1B47F4029151E65000908FF /* ToygerNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToygerNative.framework; sourceTree = "<group>"; };
+		A1B47F4129151E65000908FF /* APPSecuritySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APPSecuritySDK.framework; sourceTree = "<group>"; };
+		A1B47F4229151E65000908FF /* ZolozSensorServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozSensorServices.framework; sourceTree = "<group>"; };
+		A1B47F4329151E65000908FF /* APBToygerFacade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APBToygerFacade.framework; sourceTree = "<group>"; };
+		A1B47F4429151E65000908FF /* OCRDetectSDKForTech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCRDetectSDKForTech.framework; sourceTree = "<group>"; };
+		A1B47F4529151E65000908FF /* BioAuthEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthEngine.framework; sourceTree = "<group>"; };
+		A1B47F5329151E8F000908FF /* ToygerNative.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ToygerNative.bundle; path = ToygerNative.framework/ToygerNative.bundle; sourceTree = "<group>"; };
+		A1B47F5529151EA3000908FF /* OCRXMedia.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = OCRXMedia.bundle; path = OCRDetectSDKForTech.framework/OCRXMedia.bundle; sourceTree = "<group>"; };
+		A1B47F5729151EAF000908FF /* BioAuthEngine.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BioAuthEngine.bundle; path = BioAuthEngine.framework/BioAuthEngine.bundle; sourceTree = "<group>"; };
+		A1B47F5929151EBB000908FF /* APBToygerFacade.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = APBToygerFacade.bundle; path = APBToygerFacade.framework/APBToygerFacade.bundle; sourceTree = "<group>"; };
+		A1B47F5B29152053000908FF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A1B47F5D29152062000908FF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A1B47F5F29152072000908FF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A1B47F6129189ADF000908FF /* CLSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSettingViewController.h; sourceTree = "<group>"; };
+		A1B47F6229189ADF000908FF /* CLSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSettingViewController.m; sourceTree = "<group>"; };
+		A1B47F6329189ADF000908FF /* CLSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLSettingViewController.xib; sourceTree = "<group>"; };
+		A1B47F692918A8E5000908FF /* CLSettingActionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSettingActionCell.h; sourceTree = "<group>"; };
+		A1B47F6A2918A8E5000908FF /* CLSettingActionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSettingActionCell.m; sourceTree = "<group>"; };
+		A1C693D8291B537000D11298 /* CLConsoleBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CLConsoleBundle.bundle; sourceTree = "<group>"; };
+		A1C693DA291B537500D11298 /* CLConsole.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CLConsole.framework; sourceTree = "<group>"; };
+		A1C693DC291B964100D11298 /* CLTestSettingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLTestSettingModel.h; sourceTree = "<group>"; };
+		A1C693DD291B964100D11298 /* CLTestSettingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLTestSettingModel.m; sourceTree = "<group>"; };
+		A1CB79ED290A64E100AA2CD8 /* CLPrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPrefixHeader.h; sourceTree = "<group>"; };
+		DA544B94ABF36BBE8CE1F354 /* Pods_CLLivingDetectionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLLivingDetectionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB943429826E424DD387835 /* Pods-CLLivingDetectionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLLivingDetectionDemo.release.xcconfig"; path = "Target Support Files/Pods-CLLivingDetectionDemo/Pods-CLLivingDetectionDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A115318028E3E88B001AC37B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A120B27828FF994F0004B992 /* CLLivingDetectSDK.framework in Frameworks */,
+				A1C693DB291B537500D11298 /* CLConsole.framework in Frameworks */,
+				A115321328E3F198001AC37B /* AdSupport.framework in Frameworks */,
+				A115321128E3F192001AC37B /* libz.1.2.8.tbd in Frameworks */,
+				A115320F28E3F189001AC37B /* MobileCoreServices.framework in Frameworks */,
+				A1B47F4829151E65000908FF /* BioAuthAPI.framework in Frameworks */,
+				A1B47F4A29151E65000908FF /* ZolozUIModule.framework in Frameworks */,
+				A1B47F4C29151E65000908FF /* ToygerService.framework in Frameworks */,
+				A115320D28E3F182001AC37B /* CFNetwork.framework in Frameworks */,
+				A1B47F4B29151E65000908FF /* ZolozUtility.framework in Frameworks */,
+				A115320B28E3F17D001AC37B /* AudioToolbox.framework in Frameworks */,
+				A1B47F5029151E65000908FF /* APBToygerFacade.framework in Frameworks */,
+				A115320928E3F174001AC37B /* libc++abi.tbd in Frameworks */,
+				A115320728E3F167001AC37B /* libc++.1.tbd in Frameworks */,
+				A115320528E3F15D001AC37B /* libz.tbd in Frameworks */,
+				A1B47F4929151E65000908FF /* MPRemoteLogging.framework in Frameworks */,
+				A115320328E3F156001AC37B /* libresolv.tbd in Frameworks */,
+				A1B47F4E29151E65000908FF /* APPSecuritySDK.framework in Frameworks */,
+				A115320128E3F14B001AC37B /* WebKit.framework in Frameworks */,
+				A1B47F5E29152063000908FF /* ImageIO.framework in Frameworks */,
+				A1B47F6029152073000908FF /* CoreMotion.framework in Frameworks */,
+				A11531FF28E3F145001AC37B /* AVFoundation.framework in Frameworks */,
+				A11531FD28E3F13E001AC37B /* CoreMedia.framework in Frameworks */,
+				A11531F928E3EF0C001AC37B /* CoreImage.framework in Frameworks */,
+				A1B47F5129151E65000908FF /* OCRDetectSDKForTech.framework in Frameworks */,
+				A11531F728E3EF03001AC37B /* CoreLocation.framework in Frameworks */,
+				A15C9F2329234419005E9851 /* CLLivingDetectSDK.framework in Frameworks */,
+				A11531F528E3EEF8001AC37B /* QuartzCore.framework in Frameworks */,
+				A11531F328E3EEF1001AC37B /* CoreTelephony.framework in Frameworks */,
+				A11531F128E3EEE8001AC37B /* AssetsLibrary.framework in Frameworks */,
+				A11531EF28E3EEDE001AC37B /* SystemConfiguration.framework in Frameworks */,
+				A11531ED28E3EED8001AC37B /* Accelerate.framework in Frameworks */,
+				A1B47F5229151E65000908FF /* BioAuthEngine.framework in Frameworks */,
+				A1B47F5C29152054000908FF /* CoreFoundation.framework in Frameworks */,
+				A11531EB28E3EED0001AC37B /* CoreGraphics.framework in Frameworks */,
+				538B39B66015D8E0AE48E70D /* Pods_CLLivingDetectionDemo.framework in Frameworks */,
+				A1B47F4729151E65000908FF /* AliyunIdentityManager.framework in Frameworks */,
+				A1B47F4629151E65000908FF /* ZolozMobileRPC.framework in Frameworks */,
+				A1B47F4F29151E65000908FF /* ZolozSensorServices.framework in Frameworks */,
+				A1B47F4D29151E65000908FF /* ToygerNative.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121EECDD69F2D83128BA7896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20CDF096BF0FF2E3AF5AA4CA /* Pods-CLLivingDetectionDemo.debug.xcconfig */,
+				EDB943429826E424DD387835 /* Pods-CLLivingDetectionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		A115317A28E3E88B001AC37B = {
+			isa = PBXGroup;
+			children = (
+				A115318528E3E88B001AC37B /* CLLivingDetectionDemo */,
+				A115318428E3E88B001AC37B /* Products */,
+				A11531D228E3E965001AC37B /* Frameworks */,
+				121EECDD69F2D83128BA7896 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A115318428E3E88B001AC37B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A115318328E3E88B001AC37B /* CLLivingDetectionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A115318528E3E88B001AC37B /* CLLivingDetectionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A1899401291C944D0089EA07 /* CLLivingModel */,
+				A1C693D7291B533B00D11298 /* Tool */,
+				A120B23B28FED2D60004B992 /* framework */,
+				A115318628E3E88B001AC37B /* AppDelegate.h */,
+				A115318728E3E88B001AC37B /* AppDelegate.m */,
+				A115318C28E3E88B001AC37B /* ViewController.h */,
+				A115318D28E3E88B001AC37B /* ViewController.m */,
+				A1C693DC291B964100D11298 /* CLTestSettingModel.h */,
+				A1C693DD291B964100D11298 /* CLTestSettingModel.m */,
+				A1B47F6129189ADF000908FF /* CLSettingViewController.h */,
+				A1B47F6229189ADF000908FF /* CLSettingViewController.m */,
+				A1B47F6329189ADF000908FF /* CLSettingViewController.xib */,
+				A1B47F692918A8E5000908FF /* CLSettingActionCell.h */,
+				A1B47F6A2918A8E5000908FF /* CLSettingActionCell.m */,
+				A1CB79ED290A64E100AA2CD8 /* CLPrefixHeader.h */,
+				A115318F28E3E88B001AC37B /* Main.storyboard */,
+				A115319228E3E88C001AC37B /* Assets.xcassets */,
+				A115319428E3E88C001AC37B /* LaunchScreen.storyboard */,
+				A115319728E3E88C001AC37B /* Info.plist */,
+				A115319828E3E88C001AC37B /* main.m */,
+				A132A8072914ABB100986266 /* README.md */,
+			);
+			path = CLLivingDetectionDemo;
+			sourceTree = "<group>";
+		};
+		A11531D228E3E965001AC37B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B47F5F29152072000908FF /* CoreMotion.framework */,
+				A1B47F5D29152062000908FF /* ImageIO.framework */,
+				A1B47F5B29152053000908FF /* CoreFoundation.framework */,
+				A120B27728FF994F0004B992 /* CLLivingDetectSDK.framework */,
+				A115321228E3F198001AC37B /* AdSupport.framework */,
+				A115321028E3F192001AC37B /* libz.1.2.8.tbd */,
+				A115320E28E3F189001AC37B /* MobileCoreServices.framework */,
+				A115320C28E3F182001AC37B /* CFNetwork.framework */,
+				A115320A28E3F17D001AC37B /* AudioToolbox.framework */,
+				A115320828E3F174001AC37B /* libc++abi.tbd */,
+				A115320628E3F167001AC37B /* libc++.1.tbd */,
+				A115320428E3F15D001AC37B /* libz.tbd */,
+				A115320228E3F156001AC37B /* libresolv.tbd */,
+				A115320028E3F14B001AC37B /* WebKit.framework */,
+				A11531FE28E3F145001AC37B /* AVFoundation.framework */,
+				A11531FC28E3F13E001AC37B /* CoreMedia.framework */,
+				A11531F828E3EF0C001AC37B /* CoreImage.framework */,
+				A11531F628E3EF03001AC37B /* CoreLocation.framework */,
+				A11531F428E3EEF8001AC37B /* QuartzCore.framework */,
+				A11531F228E3EEF1001AC37B /* CoreTelephony.framework */,
+				A11531F028E3EEE8001AC37B /* AssetsLibrary.framework */,
+				A11531EE28E3EEDE001AC37B /* SystemConfiguration.framework */,
+				A11531EC28E3EED8001AC37B /* Accelerate.framework */,
+				A11531EA28E3EED0001AC37B /* CoreGraphics.framework */,
+				DA544B94ABF36BBE8CE1F354 /* Pods_CLLivingDetectionDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A120B23B28FED2D60004B992 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				A1B47F5929151EBB000908FF /* APBToygerFacade.bundle */,
+				A1B47F5729151EAF000908FF /* BioAuthEngine.bundle */,
+				A1B47F5529151EA3000908FF /* OCRXMedia.bundle */,
+				A1B47F5329151E8F000908FF /* ToygerNative.bundle */,
+				A1B47F3A29151E65000908FF /* AliyunIdentityManager.framework */,
+				A15C9F2229234419005E9851 /* CLLivingDetectSDK.framework */,
+				A1B47F4329151E65000908FF /* APBToygerFacade.framework */,
+				A1B47F4129151E65000908FF /* APPSecuritySDK.framework */,
+				A1B47F3B29151E65000908FF /* BioAuthAPI.framework */,
+				A1B47F4529151E65000908FF /* BioAuthEngine.framework */,
+				A1B47F3C29151E65000908FF /* MPRemoteLogging.framework */,
+				A1B47F4429151E65000908FF /* OCRDetectSDKForTech.framework */,
+				A1B47F4029151E65000908FF /* ToygerNative.framework */,
+				A1B47F3F29151E65000908FF /* ToygerService.framework */,
+				A1B47F3929151E65000908FF /* ZolozMobileRPC.framework */,
+				A1B47F4229151E65000908FF /* ZolozSensorServices.framework */,
+				A1B47F3D29151E65000908FF /* ZolozUIModule.framework */,
+				A1B47F3E29151E65000908FF /* ZolozUtility.framework */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		A1899401291C944D0089EA07 /* CLLivingModel */ = {
+			isa = PBXGroup;
+			children = (
+				A1899406291C944D0089EA07 /* NSObject+JMModel.h */,
+				A1899404291C944D0089EA07 /* NSObject+JMModel.m */,
+				A1899402291C944D0089EA07 /* JMClassInfo.h */,
+				A1899405291C944D0089EA07 /* JMClassInfo.m */,
+				A1899403291C944D0089EA07 /* YYModel.h */,
+			);
+			path = CLLivingModel;
+			sourceTree = "<group>";
+		};
+		A1C693D7291B533B00D11298 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A1C693DA291B537500D11298 /* CLConsole.framework */,
+				A1C693D8291B537000D11298 /* CLConsoleBundle.bundle */,
+				A130817A2915102F005CC8FA /* CLTool.h */,
+				A130817C2915102F005CC8FA /* CLTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A115318228E3E88B001AC37B /* CLLivingDetectionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A115319C28E3E88C001AC37B /* Build configuration list for PBXNativeTarget "CLLivingDetectionDemo" */;
+			buildPhases = (
+				37C278838800A1B0C39DFD33 /* [CP] Check Pods Manifest.lock */,
+				A115317F28E3E88B001AC37B /* Sources */,
+				A115318028E3E88B001AC37B /* Frameworks */,
+				A115318128E3E88B001AC37B /* Resources */,
+				BBE4B32AEE2E40FCF8D56F43 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLLivingDetectionDemo;
+			productName = CLLivingDetectionDemo;
+			productReference = A115318328E3E88B001AC37B /* CLLivingDetectionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A115317B28E3E88B001AC37B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A115318228E3E88B001AC37B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A115317E28E3E88B001AC37B /* Build configuration list for PBXProject "CLLivingDetectionDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A115317A28E3E88B001AC37B;
+			productRefGroup = A115318428E3E88B001AC37B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A115318228E3E88B001AC37B /* CLLivingDetectionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A115318128E3E88B001AC37B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B47F6529189ADF000908FF /* CLSettingViewController.xib in Resources */,
+				A1B47F5429151E8F000908FF /* ToygerNative.bundle in Resources */,
+				A1B47F5A29151EBB000908FF /* APBToygerFacade.bundle in Resources */,
+				A1B47F5629151EA3000908FF /* OCRXMedia.bundle in Resources */,
+				A1B47F5829151EAF000908FF /* BioAuthEngine.bundle in Resources */,
+				A1C693D9291B537000D11298 /* CLConsoleBundle.bundle in Resources */,
+				A115319628E3E88C001AC37B /* LaunchScreen.storyboard in Resources */,
+				A115319328E3E88C001AC37B /* Assets.xcassets in Resources */,
+				A115319128E3E88B001AC37B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37C278838800A1B0C39DFD33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLLivingDetectionDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE4B32AEE2E40FCF8D56F43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLLivingDetectionDemo/Pods-CLLivingDetectionDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLLivingDetectionDemo/Pods-CLLivingDetectionDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLLivingDetectionDemo/Pods-CLLivingDetectionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A115317F28E3E88B001AC37B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B47F6B2918A8E5000908FF /* CLSettingActionCell.m in Sources */,
+				A1B47F6429189ADF000908FF /* CLSettingViewController.m in Sources */,
+				A1899408291C944D0089EA07 /* JMClassInfo.m in Sources */,
+				A115318E28E3E88B001AC37B /* ViewController.m in Sources */,
+				A115318828E3E88B001AC37B /* AppDelegate.m in Sources */,
+				A1C693DE291B964100D11298 /* CLTestSettingModel.m in Sources */,
+				A130817D2915102F005CC8FA /* CLTool.m in Sources */,
+				A1899407291C944D0089EA07 /* NSObject+JMModel.m in Sources */,
+				A115319928E3E88C001AC37B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A115318F28E3E88B001AC37B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A115319028E3E88B001AC37B /* Base */,
+				A15C9F2029221B9A005E9851 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A115319428E3E88C001AC37B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A115319528E3E88C001AC37B /* Base */,
+				A15C9F2129221B9A005E9851 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A115319A28E3E88C001AC37B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A115319B28E3E88C001AC37B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A115319D28E3E88C001AC37B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CDF096BF0FF2E3AF5AA4CA /* Pods-CLLivingDetectionDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 234RUSLLNG;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CLLivingDetectionSDK/CLLivingDetectionSDK/frameworks",
+					"$(PROJECT_DIR)/CLLivingDetectionSDK/CLLivingDetectionSDK",
+					"$(PROJECT_DIR)/CLLivingDetectionSDK/CLLivingDetectionSDK/CLLivingDetectionSDK",
+					"$(PROJECT_DIR)/CLLivingDetectionDemo/framework",
+					"$(PROJECT_DIR)/CLLivingDetectionDemo",
+					"$(PROJECT_DIR)/CLLivingDetectionDemo/CLBugLog",
+					"$(PROJECT_DIR)/CLLivingDetectionDemo/Tool",
+				);
+				GCC_PREFIX_HEADER = CLLivingDetectionDemo/CLPrefixHeader.h;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CLLivingDetectionDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "活体demo";
+				INFOPLIST_KEY_NSCameraUsageDescription = "活体demo想使用您的相机，允许吗？";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "活体demo想使用您的麦克风，允许吗？";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "活体demo想添加视频到相册，允许吗？";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.living.release;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A115319E28E3E88C001AC37B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB943429826E424DD387835 /* Pods-CLLivingDetectionDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 234RUSLLNG;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CLLivingDetectionSDK/CLLivingDetectionSDK/frameworks",
+					"$(PROJECT_DIR)/CLLivingDetectionSDK/CLLivingDetectionSDK",
+					"$(PROJECT_DIR)/CLLivingDetectionSDK/CLLivingDetectionSDK/CLLivingDetectionSDK",
+					"$(PROJECT_DIR)/CLLivingDetectionDemo/framework",
+					"$(PROJECT_DIR)/CLLivingDetectionDemo",
+					"$(PROJECT_DIR)/CLLivingDetectionDemo/CLBugLog",
+					"$(PROJECT_DIR)/CLLivingDetectionDemo/Tool",
+				);
+				GCC_PREFIX_HEADER = CLLivingDetectionDemo/CLPrefixHeader.h;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CLLivingDetectionDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "活体demo";
+				INFOPLIST_KEY_NSCameraUsageDescription = "活体demo想使用您的相机，允许吗？";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "活体demo想使用您的麦克风，允许吗？";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "活体demo想添加视频到相册，允许吗？";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.living.release;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A115317E28E3E88B001AC37B /* Build configuration list for PBXProject "CLLivingDetectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A115319A28E3E88C001AC37B /* Debug */,
+				A115319B28E3E88C001AC37B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A115319C28E3E88C001AC37B /* Build configuration list for PBXNativeTarget "CLLivingDetectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A115319D28E3E88C001AC37B /* Debug */,
+				A115319E28E3E88C001AC37B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A115317B28E3E88B001AC37B /* Project object */;
+}
