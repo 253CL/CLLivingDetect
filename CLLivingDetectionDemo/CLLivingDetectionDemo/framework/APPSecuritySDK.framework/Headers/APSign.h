@@ -39,18 +39,6 @@ NS_ASSUME_NONNULL_BEGIN
                        ext: (NSDictionary*) extParams
                      error: (NSError **) errInfo;
 
-/*
-*  preColorInfo 签名数据预处理接口，用于不同业务定制签名携带数据
-*
-*  @param userAction 当前动作,由业务定制的行为事件
-*  @param extParams 业务参数，格式需要与内部对齐
-*
-*  @return 预处理数据
-*/
-+ (NSString*) preColorInfoForString: (int) userAction
-                                ext: (NSString*) extParams
-                              error: (NSError **) errInfo;
-
 @end
 
 NS_ASSUME_NONNULL_END
