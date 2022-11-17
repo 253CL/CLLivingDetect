@@ -1,7 +1,5 @@
 #  CLLivingDetectSDK集成文档
 
-
-[活体文档](https://antchain.antgroup.com/docs/11/164941)
 ---
 ## 验证流程
 
