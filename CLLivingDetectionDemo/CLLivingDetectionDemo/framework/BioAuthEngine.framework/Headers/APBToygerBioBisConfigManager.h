@@ -3,7 +3,7 @@
 //  APFaceDetectBiz
 //
 //  Created by 晗羽 on 1/7/16.
-//  Copyright © 2016 Alipay. All rights reserved.
+//  Copyright © 2016 . All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by shuhong.xsh on 16/8/3.
-//  Copyright © 2016年 Alipay. All rights reserved.
+//  Copyright © 2016年 . All rights reserved.
 //  弹出框管理类
 
 #import <UIKit/UIKit.h>

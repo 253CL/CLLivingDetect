@@ -1,4 +1,4 @@
-//com.alipay.bis.common.service.facade.gw.model.upload.BisJsonUploadGwRequest
+//com..bis.common.service.facade.gw.model.upload.BisJsonUploadGwRequest
 /*
  *generation date:Mon Mar 14 10:35:56 CST 2016
  *tool version:5.0.2

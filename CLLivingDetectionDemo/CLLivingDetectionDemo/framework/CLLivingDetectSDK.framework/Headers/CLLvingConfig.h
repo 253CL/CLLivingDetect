@@ -34,6 +34,9 @@ typedef enum : NSUInteger {
 /// CLLivingVertifyActionMulti：多动作活体检测，眨眼+任意摇头检测
 @property(nonatomic, assign) CLLivingVerifyAction vertifyAction;
 
+///是否自定义协议，默认为@(YES),显示协议页 ，为@(NO)需要用户自定义协议页面
+@property(nonatomic, assign)NSNumber * showProtocol;
+
 + (CLLvingConfig *)defaultConfig;
 
 @end

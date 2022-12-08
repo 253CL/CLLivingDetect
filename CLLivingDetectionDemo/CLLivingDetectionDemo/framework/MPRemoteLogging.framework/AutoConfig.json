@@ -1,6 +1,6 @@
 {
-    "class": "APLogAdditions",
-    "header": "<MPRemoteLogging/APLogAddions.h>",
+    "class": "MPLogAdditions",
+    "header": "<MPRemoteLogging/MPLogAdditions.h>",
     "title": {
         "chinese": "日志埋点",
         "english": "Remote Logging"

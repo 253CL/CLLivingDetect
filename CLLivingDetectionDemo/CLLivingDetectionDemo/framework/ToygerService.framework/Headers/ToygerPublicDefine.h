@@ -3,7 +3,7 @@
 //  ToygerAlgorithm
 //
 //  Created by 王伟伟 on 2018/1/22.
-//  Copyright © 2018年 Alipay. All rights reserved.
+//  Copyright © 2018年 . All rights reserved.
 //
 
 #ifndef ToygerAlgorithmPublicDefine_h

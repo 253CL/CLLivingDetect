@@ -3,7 +3,7 @@
 //  ToygerService
 //
 //  Created by 晗羽 on 2018/5/17.
-//  Copyright © 2018 Alipay. All rights reserved.
+//  Copyright © 2018 . All rights reserved.
 //
 
 #ifdef USE_SENSOR

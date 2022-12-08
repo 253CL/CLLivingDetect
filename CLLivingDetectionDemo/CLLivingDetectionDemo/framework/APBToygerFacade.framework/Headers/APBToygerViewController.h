@@ -3,19 +3,19 @@
 //  APFaceDetectBiz
 //
 //  Created by 晗羽 on 8/25/16.
-//  Copyright © 2016 Alipay. All rights reserved.
+//  Copyright © 2016 . All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <ToygerService/ToygerService.h>
-#import <ZolozUIModule/ZolozFaceViewProtocol.h>
+#import <DTFUIModule/DTFFaceViewProtocol.h>
 
 NSString *const kAbnormalClose = @"abnormalclose";
 
 @interface APBToygerViewController : UIViewController
 
-@property(nonatomic, strong) ZolozLogMonitor *monitor;
-@property(nonatomic, strong) id<ZolozFaceViewProtocol> faceView;
+@property(nonatomic, strong) DTFLogMonitor *monitor;
+@property(nonatomic, strong) id<DTFFaceViewProtocol> faceView;
 @property(nonatomic, assign) BOOL isClose;
 
 - (void)startFaceRecognition:(AVCaptureVideoPreviewLayer *)layer;

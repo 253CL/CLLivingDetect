@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by yukun.tyk on 3/2/16.
-//  Copyright © 2016 Alipay. All rights reserved.
+//  Copyright © 2016 . All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "APMonitorPointDataDefines.h"
+#import "MPMonitorPointDataDefines.h"
 //#import "APMonitorPointManager.h"
-#import "APRemoteLogger.h"
-#import "APLogAddions.h"
+#import "MPRemoteLogger.h"

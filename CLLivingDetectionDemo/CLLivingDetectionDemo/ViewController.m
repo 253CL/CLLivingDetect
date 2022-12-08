@@ -12,14 +12,6 @@
 #import "CLTool.h"
 
 #import <objc/runtime.h>
-//#define APPID  @"Hhj6ctbj"   //www.cl.living
-//#define APPKEY @"QjHehyy8"
-
-//#define APPID  @"P26AjMYr"   //iostest
-//#define APPKEY @"QjHehyy8"
-
-//#define APPID  @"xu1AwOdC"   //com.living.sit
-//#define APPKEY @""
 
 #define APPID  @"KQ6WTnju"   //com.living.release
 #define APPKEY @""
@@ -63,14 +55,10 @@
 }
 
 - (void)startLiveDetect:(UIButton *)sender{
-    [SVProgressHUD showWithStatus:@"请求中..."];
-    sender.enabled = NO; //防止重复点击造成多次请求
     CLConsoleLog(@"SDK开始活体检测...");
     [CLLivingDetectManager startVerifyWithViewController:self completion:^(CLLivingResult * _Nonnull result) {
         CLConsoleLog(@"SDK开始活体检测结果：\n{code:%@,\nmessage:%@,\ninnerCode:%@,\ninnerMessage:%@,\nvideoFilePath:%@,\nimageContent:%@,\ncertifyId:%@}",@(result.code),result.message,@(result.innerCode),result.innerMessage,result.response.videoFilePath,result.response.imageContent,result.response.certifyId);
         dispatch_async(dispatch_get_main_queue(), ^{
-            sender.enabled = YES;
-            [SVProgressHUD dismiss];
             [SVProgressHUD showErrorWithStatus:[NSString stringWithFormat:@"【本地认证结果】%@",result.innerMessage==nil?result.message:result.innerMessage]];
         });
         

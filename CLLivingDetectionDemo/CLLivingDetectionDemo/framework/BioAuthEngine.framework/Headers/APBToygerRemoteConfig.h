@@ -3,7 +3,7 @@
 //  AppArch
 //
 //  Created by yukun.tyk on 8/29/16.
-//  Copyright © 2016 alipay. All rights reserved.
+//  Copyright © 2016 . All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

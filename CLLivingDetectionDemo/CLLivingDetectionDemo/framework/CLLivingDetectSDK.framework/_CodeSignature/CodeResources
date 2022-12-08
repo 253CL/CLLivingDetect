@@ -4,6 +4,58 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		dq+TTBoxMv19Ifh16suoUDwsE0o=
+		</data>
+		<key>CLLivingDetect.bundle/cancel@2x.png</key>
+		<data>
+		A3iFUDUhfZ5cawwCsg0I7SaHae8=
+		</data>
+		<key>CLLivingDetect.bundle/living_askant@2x.png</key>
+		<data>
+		g2loYi3PfGvoC59h56QWbn75YCE=
+		</data>
+		<key>CLLivingDetect.bundle/living_askant@3x.png</key>
+		<data>
+		EzOToNGXDB/KXWs6VMLJvJZ+i1I=
+		</data>
+		<key>CLLivingDetect.bundle/living_cover@2x.png</key>
+		<data>
+		fvqVY/GGqkkrU9yRsgiwxp58qHg=
+		</data>
+		<key>CLLivingDetect.bundle/living_cover@3x.png</key>
+		<data>
+		0ncQD+tqhtQS0NAVKgpGRZncTLY=
+		</data>
+		<key>CLLivingDetect.bundle/living_dark@2x.png</key>
+		<data>
+		VcaZnaNj8fggJkYOGMzez1RdONY=
+		</data>
+		<key>CLLivingDetect.bundle/living_dark@3x.png</key>
+		<data>
+		GnOe/ZcuO3C0BKOYiX/exlqvFO8=
+		</data>
+		<key>CLLivingDetect.bundle/living_head@2x.png</key>
+		<data>
+		+vk3PFD584JVrfNySgpwaFjL2zc=
+		</data>
+		<key>CLLivingDetect.bundle/living_head@3x.png</key>
+		<data>
+		EUcLiKYppgvy3jb8LGeoFGnsmz0=
+		</data>
+		<key>CLLivingDetect.bundle/nav_bar_cancel.png</key>
+		<data>
+		dL1ugm85e9Sv39MlVBj4IRKsHu0=
+		</data>
+		<key>CLLivingDetect.bundle/protocol_selected@2x.png</key>
+		<data>
+		5O3a1t6XkUe8dlsZgf6Xs+RlH7U=
+		</data>
+		<key>CLLivingDetect.bundle/protocol_unselected@2x.png</key>
+		<data>
+		ezC3Ic3trtGpSaQ/+HwtZ/ZHlic=
+		</data>
 		<key>Headers/CLLivingDetectManager.h</key>
 		<data>
 		nFw6yuxm88QAxARgO86zEOkc60I=
@@ -18,7 +70,7 @@
 		</data>
 		<key>Headers/CLLvingConfig.h</key>
 		<data>
-		nGKR1BWwsvOhJJTZM/923Ja5JkA=
+		FbAIaeGbmgCl+69xam0ocW2Dgs8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -31,6 +83,138 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>CLLivingDetect.bundle/cancel@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			A3iFUDUhfZ5cawwCsg0I7SaHae8=
+			</data>
+			<key>hash2</key>
+			<data>
+			0wcQ8+fczBEPkYSClGxBiX8eulggfLw9NXdYGrbuQZk=
+			</data>
+		</dict>
+		<key>CLLivingDetect.bundle/living_askant@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			g2loYi3PfGvoC59h56QWbn75YCE=
+			</data>
+			<key>hash2</key>
+			<data>
+			hjplMtjHc2/roj4H79Jo5/WFIIKt2CQapuqHwmxSzWs=
+			</data>
+		</dict>
+		<key>CLLivingDetect.bundle/living_askant@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EzOToNGXDB/KXWs6VMLJvJZ+i1I=
+			</data>
+			<key>hash2</key>
+			<data>
+			cZuXLGpvxpqXUZnpVBHyRa0/ZL1+OW1gnL5RgjAr+Ss=
+			</data>
+		</dict>
+		<key>CLLivingDetect.bundle/living_cover@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fvqVY/GGqkkrU9yRsgiwxp58qHg=
+			</data>
+			<key>hash2</key>
+			<data>
+			lhVCMnHO0NeNhtYM8ofE7iO+7VbawqPawM8/uWgZ46A=
+			</data>
+		</dict>
+		<key>CLLivingDetect.bundle/living_cover@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0ncQD+tqhtQS0NAVKgpGRZncTLY=
+			</data>
+			<key>hash2</key>
+			<data>
+			yXYKd7iirKunVLdf08jf28cqlqfpRI/i6YKRPGZYZRY=
+			</data>
+		</dict>
+		<key>CLLivingDetect.bundle/living_dark@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VcaZnaNj8fggJkYOGMzez1RdONY=
+			</data>
+			<key>hash2</key>
+			<data>
+			fif7WtOrZ/f2Jf+8+wkMqd236551JUhsbevKxnFMwrc=
+			</data>
+		</dict>
+		<key>CLLivingDetect.bundle/living_dark@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GnOe/ZcuO3C0BKOYiX/exlqvFO8=
+			</data>
+			<key>hash2</key>
+			<data>
+			+JK1AeXQU0R3GlI270QZYR4457DHlOYdLbIP7pbSQ0c=
+			</data>
+		</dict>
+		<key>CLLivingDetect.bundle/living_head@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+vk3PFD584JVrfNySgpwaFjL2zc=
+			</data>
+			<key>hash2</key>
+			<data>
+			mpSmDaecMnzrGN59RlvTRm3HwpiFaXMLbLremEBnx6g=
+			</data>
+		</dict>
+		<key>CLLivingDetect.bundle/living_head@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EUcLiKYppgvy3jb8LGeoFGnsmz0=
+			</data>
+			<key>hash2</key>
+			<data>
+			gHe4DZHl7umhrCMUnIpnpkpGuQoGi1vqEH+5F/FW7QE=
+			</data>
+		</dict>
+		<key>CLLivingDetect.bundle/nav_bar_cancel.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dL1ugm85e9Sv39MlVBj4IRKsHu0=
+			</data>
+			<key>hash2</key>
+			<data>
+			vGQoVGuB09FB5Q4P6dWtRU6HEE37pPM9L9xNpyrtQx4=
+			</data>
+		</dict>
+		<key>CLLivingDetect.bundle/protocol_selected@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5O3a1t6XkUe8dlsZgf6Xs+RlH7U=
+			</data>
+			<key>hash2</key>
+			<data>
+			b0v+EdI6Z4pF488hQ4IUmyCalOfl3tqHWxZYcvl864Q=
+			</data>
+		</dict>
+		<key>CLLivingDetect.bundle/protocol_unselected@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ezC3Ic3trtGpSaQ/+HwtZ/ZHlic=
+			</data>
+			<key>hash2</key>
+			<data>
+			MaQ+NSTIyUb/B8CDdCTgfIST00hngeMHaSUQunMPfJU=
+			</data>
+		</dict>
 		<key>Headers/CLLivingDetectManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -68,11 +252,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nGKR1BWwsvOhJJTZM/923Ja5JkA=
+			FbAIaeGbmgCl+69xam0ocW2Dgs8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yQ8G/xmpkX0MOzORF46aIf1LYJsIQXlSSRj24YFHco4=
+			8Q0vPzNRD5F4tusFryKBwNn+en6JLqavzd1FRL3jctk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

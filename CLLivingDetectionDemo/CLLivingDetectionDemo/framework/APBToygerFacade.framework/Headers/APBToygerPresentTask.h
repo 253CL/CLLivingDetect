@@ -3,12 +3,12 @@
 //  APFaceDetectBiz
 //
 //  Created by 晗羽 on 8/26/16.
-//  Copyright © 2016 Alipay. All rights reserved.
+//  Copyright © 2016 . All rights reserved.
 //
 
 #import <APBToygerFacade/APBToygerBaseTask.h>
-#import <ZolozSensorServices/CameraService.h>
-#import <ZolozUIModule/ZolozFaceViewProtocol.h>
+#import <DTFSensorServices/CameraService.h>
+#import <DTFUIModule/DTFFaceViewProtocol.h>
 /**
  *  @author Skye Ying, 16-08-26 13:08:04
  *
@@ -16,9 +16,9 @@
  */
 @interface APBToygerPresentTask : APBToygerBaseTask
 
-@property(nonatomic, strong) id<ZolozFaceViewProtocol> faceView;
+@property(nonatomic, strong) id<DTFFaceViewProtocol> faceView;
 
--(void) postCameraPresentwithCamera:(ZolozCameraService *) cameraService;
+-(void) postCameraPresentwithCamera:(DTFCameraService *) cameraService;
 
 -(void) presentAnimated: (BOOL)flag completion:(void (^ __nullable)(void))completion;
 

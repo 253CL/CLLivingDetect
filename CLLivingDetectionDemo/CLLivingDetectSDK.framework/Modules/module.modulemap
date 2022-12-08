@@ -1,6 +1,0 @@
-framework module CLLivingDetectSDK {
-  umbrella header "CLLivingDetectSDK.h"
-
-  export *
-  module * { export * }
-}

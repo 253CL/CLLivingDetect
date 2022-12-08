@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by richard on 20/09/2017.
-//  Copyright © 2017 Alipay. All rights reserved.
+//  Copyright © 2017 . All rights reserved.
 //
 
 #ifndef BioAuthEngine_h
@@ -22,7 +22,7 @@
 #import <BioAuthEngine/AFEAlertView.h>
 #import <BioAuthEngine/AFECircularView.h>
 #import <BioAuthEngine/AFEWebGuideView.h>
-#import <BioAuthEngine/APBZolozUploadToastView.h>
+#import <BioAuthEngine/APBDTFUploadToastView.h>
 
 #import <BioAuthEngine/AFEStatusBar.h>
 #import <BioAuthEngine/AFECircleProgressBar.h>
@@ -43,12 +43,12 @@
 
 
 
-#import <BioAuthEngine/ZolozUIElementManager.h>
+#import <BioAuthEngine/DTFUIElementManager.h>
 #import <BioAuthEngine/APBGatewayFacade.h>
 #import <BioAuthEngine/APBProxy.h>
 #import <BioAuthEngine/APBDeviceInfo.h>
 #import <BioAuthEngine/APBAuthFacade.h>
-#import <BioAuthEngine/ZolozTextLayer.h>
+#import <BioAuthEngine/DTFTextLayer.h>
 #import <UIKit/UIKit.h>
 
 //! Project version number for BioAuthEngine.

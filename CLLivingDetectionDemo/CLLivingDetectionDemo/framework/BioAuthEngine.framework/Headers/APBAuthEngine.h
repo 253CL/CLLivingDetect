@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by yukun.tyk on 11/9/15.
-//  Copyright © 2015 Alipay. All rights reserved.
+//  Copyright © 2015 . All rights reserved.
 //
 //
 
@@ -19,7 +19,7 @@ typedef enum {
     BIO_HANDWRITING =   103,                //笔迹识别
     BIO_IDPAPERS    =   107,                //重构后的证件宝
     BIO_CARD =          109,                //证件宝
-    BIO_ZOLOZ_DOC =     110,                //一体化证件宝
+    BIO_DTF_DOC =     110,                //一体化证件宝
     BIO_FACE_VOICE =    202,                //人脸+声纹识别
     BIO_FACE_EYE =      201,                //人脸+眼纹识别
     BIO_CARD_FACE =     200,                //人证合一

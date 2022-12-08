@@ -3,7 +3,7 @@
 //  APFaceDetectBiz
 //
 //  Created by 晗羽 on 8/25/16.
-//  Copyright © 2016 Alipay. All rights reserved.
+//  Copyright © 2016 . All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -19,7 +19,7 @@
 #import <BioAuthEngine/BioAuthCommonSetting.h>
 #import <APBToygerFacade/APBToygerViewController.h>
 
-@class ZolozLogMonitor,APBToygerDataCenter;
+@class DTFLogMonitor,APBToygerDataCenter;
 
 typedef void (^APFAlertExtraAction)();
 
@@ -41,7 +41,7 @@ typedef void (^APFAlertExtraAction)();
 @property(nonatomic, assign)BOOL soundStatus;                           //当前声音状态
 //@property(nonatomic, assign)BOOL isLoginMode;                           //当前场景是否为登录场景
 @property(nonatomic, assign)BOOL isMYBank;                              //是否是网商银行
-@property(nonatomic, strong)ZolozLogMonitor *monitor;                        //埋点
+@property(nonatomic, strong)DTFLogMonitor *monitor;                        //埋点
 
 - (void)exitWithResult:(APBResultType)result failReason:(NSString *)failReason retCodeSub:(NSString *)retCodeSub retMessageSub:(NSString *)retMessageSub;
 

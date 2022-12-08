@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by 晗羽 on 28/02/2018.
-//  Copyright © 2018 Alipay. All rights reserved.
+//  Copyright © 2018 . All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -11,7 +11,7 @@
 
 @interface APBDeviceInfo : NSObject
 
-@property(nonatomic,strong)NSString* aliyunDeviceToken;
+@property(nonatomic,strong)NSString* dtfDeviceToken;
 
 + (instancetype)getInstance;
 

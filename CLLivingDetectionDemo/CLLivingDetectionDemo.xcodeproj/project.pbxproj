@@ -35,27 +35,9 @@
 		A115321128E3F192001AC37B /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A115321028E3F192001AC37B /* libz.1.2.8.tbd */; };
 		A115321328E3F198001AC37B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115321228E3F198001AC37B /* AdSupport.framework */; };
 		A130817D2915102F005CC8FA /* CLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A130817C2915102F005CC8FA /* CLTool.m */; };
-		A15C9F2329234419005E9851 /* CLLivingDetectSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15C9F2229234419005E9851 /* CLLivingDetectSDK.framework */; };
 		A15CA012292620B4005E9851 /* CLLivingDetectSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15CA011292620B4005E9851 /* CLLivingDetectSDK.framework */; };
 		A1899407291C944D0089EA07 /* NSObject+JMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1899404291C944D0089EA07 /* NSObject+JMModel.m */; };
 		A1899408291C944D0089EA07 /* JMClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A1899405291C944D0089EA07 /* JMClassInfo.m */; };
-		A1B47F4629151E65000908FF /* ZolozMobileRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3929151E65000908FF /* ZolozMobileRPC.framework */; };
-		A1B47F4729151E65000908FF /* AliyunIdentityManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3A29151E65000908FF /* AliyunIdentityManager.framework */; };
-		A1B47F4829151E65000908FF /* BioAuthAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3B29151E65000908FF /* BioAuthAPI.framework */; };
-		A1B47F4929151E65000908FF /* MPRemoteLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3C29151E65000908FF /* MPRemoteLogging.framework */; };
-		A1B47F4A29151E65000908FF /* ZolozUIModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3D29151E65000908FF /* ZolozUIModule.framework */; };
-		A1B47F4B29151E65000908FF /* ZolozUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3E29151E65000908FF /* ZolozUtility.framework */; };
-		A1B47F4C29151E65000908FF /* ToygerService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F3F29151E65000908FF /* ToygerService.framework */; };
-		A1B47F4D29151E65000908FF /* ToygerNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4029151E65000908FF /* ToygerNative.framework */; };
-		A1B47F4E29151E65000908FF /* APPSecuritySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4129151E65000908FF /* APPSecuritySDK.framework */; };
-		A1B47F4F29151E65000908FF /* ZolozSensorServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4229151E65000908FF /* ZolozSensorServices.framework */; };
-		A1B47F5029151E65000908FF /* APBToygerFacade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4329151E65000908FF /* APBToygerFacade.framework */; };
-		A1B47F5129151E65000908FF /* OCRDetectSDKForTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4429151E65000908FF /* OCRDetectSDKForTech.framework */; };
-		A1B47F5229151E65000908FF /* BioAuthEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F4529151E65000908FF /* BioAuthEngine.framework */; };
-		A1B47F5429151E8F000908FF /* ToygerNative.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1B47F5329151E8F000908FF /* ToygerNative.bundle */; };
-		A1B47F5629151EA3000908FF /* OCRXMedia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1B47F5529151EA3000908FF /* OCRXMedia.bundle */; };
-		A1B47F5829151EAF000908FF /* BioAuthEngine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1B47F5729151EAF000908FF /* BioAuthEngine.bundle */; };
-		A1B47F5A29151EBB000908FF /* APBToygerFacade.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1B47F5929151EBB000908FF /* APBToygerFacade.bundle */; };
 		A1B47F5C29152054000908FF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F5B29152053000908FF /* CoreFoundation.framework */; };
 		A1B47F5E29152063000908FF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F5D29152062000908FF /* ImageIO.framework */; };
 		A1B47F6029152073000908FF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F5F29152072000908FF /* CoreMotion.framework */; };
@@ -65,6 +47,23 @@
 		A1C693D9291B537000D11298 /* CLConsoleBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1C693D8291B537000D11298 /* CLConsoleBundle.bundle */; };
 		A1C693DB291B537500D11298 /* CLConsole.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C693DA291B537500D11298 /* CLConsole.framework */; };
 		A1C693DE291B964100D11298 /* CLTestSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C693DD291B964100D11298 /* CLTestSettingModel.m */; };
+		A1F1DCCE29421B2800544833 /* CLLivingDetectSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCC129421B2800544833 /* CLLivingDetectSDK.framework */; };
+		A1F1DCCF29421B2800544833 /* BioAuthEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCC229421B2800544833 /* BioAuthEngine.framework */; };
+		A1F1DCD029421B2800544833 /* MPRemoteLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCC329421B2800544833 /* MPRemoteLogging.framework */; };
+		A1F1DCD129421B2800544833 /* BioAuthAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCC429421B2800544833 /* BioAuthAPI.framework */; };
+		A1F1DCD229421B2800544833 /* APBToygerFacade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCC529421B2800544833 /* APBToygerFacade.framework */; };
+		A1F1DCD329421B2800544833 /* DTFUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCC629421B2800544833 /* DTFUtility.framework */; };
+		A1F1DCD429421B2800544833 /* DTFMobileRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCC729421B2800544833 /* DTFMobileRPC.framework */; };
+		A1F1DCD529421B2800544833 /* DTFUIModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCC829421B2800544833 /* DTFUIModule.framework */; };
+		A1F1DCD629421B2800544833 /* ToygerNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCC929421B2800544833 /* ToygerNative.framework */; };
+		A1F1DCD729421B2800544833 /* DTFIdentityManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCCA29421B2800544833 /* DTFIdentityManager.framework */; };
+		A1F1DCD829421B2800544833 /* DTFSensorServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCCB29421B2800544833 /* DTFSensorServices.framework */; };
+		A1F1DCD929421B2800544833 /* ToygerService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCCC29421B2800544833 /* ToygerService.framework */; };
+		A1F1DCDA29421B2800544833 /* APPSecuritySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCCD29421B2800544833 /* APPSecuritySDK.framework */; };
+		A1F1DCDC29421B5600544833 /* CLLivingDetect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1F1DCDB29421B5600544833 /* CLLivingDetect.bundle */; };
+		A1F1DCDE29421B5E00544833 /* APBToygerFacade.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1F1DCDD29421B5D00544833 /* APBToygerFacade.bundle */; };
+		A1F1DCE029421B6800544833 /* BioAuthEngine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1F1DCDF29421B6800544833 /* BioAuthEngine.bundle */; };
+		A1F1DCE229421B7000544833 /* ToygerNative.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1F1DCE129421B7000544833 /* ToygerNative.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,30 +103,12 @@
 		A132A8072914ABB100986266 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A15C9F2029221B9A005E9851 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		A15C9F2129221B9A005E9851 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		A15C9F2229234419005E9851 /* CLLivingDetectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CLLivingDetectSDK.framework; sourceTree = "<group>"; };
 		A15CA011292620B4005E9851 /* CLLivingDetectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CLLivingDetectSDK.framework; sourceTree = "<group>"; };
 		A1899402291C944D0089EA07 /* JMClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMClassInfo.h; sourceTree = "<group>"; };
 		A1899403291C944D0089EA07 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		A1899404291C944D0089EA07 /* NSObject+JMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JMModel.m"; sourceTree = "<group>"; };
 		A1899405291C944D0089EA07 /* JMClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMClassInfo.m; sourceTree = "<group>"; };
 		A1899406291C944D0089EA07 /* NSObject+JMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JMModel.h"; sourceTree = "<group>"; };
-		A1B47F3929151E65000908FF /* ZolozMobileRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozMobileRPC.framework; sourceTree = "<group>"; };
-		A1B47F3A29151E65000908FF /* AliyunIdentityManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunIdentityManager.framework; sourceTree = "<group>"; };
-		A1B47F3B29151E65000908FF /* BioAuthAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthAPI.framework; sourceTree = "<group>"; };
-		A1B47F3C29151E65000908FF /* MPRemoteLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPRemoteLogging.framework; sourceTree = "<group>"; };
-		A1B47F3D29151E65000908FF /* ZolozUIModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozUIModule.framework; sourceTree = "<group>"; };
-		A1B47F3E29151E65000908FF /* ZolozUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozUtility.framework; sourceTree = "<group>"; };
-		A1B47F3F29151E65000908FF /* ToygerService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToygerService.framework; sourceTree = "<group>"; };
-		A1B47F4029151E65000908FF /* ToygerNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToygerNative.framework; sourceTree = "<group>"; };
-		A1B47F4129151E65000908FF /* APPSecuritySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APPSecuritySDK.framework; sourceTree = "<group>"; };
-		A1B47F4229151E65000908FF /* ZolozSensorServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozSensorServices.framework; sourceTree = "<group>"; };
-		A1B47F4329151E65000908FF /* APBToygerFacade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APBToygerFacade.framework; sourceTree = "<group>"; };
-		A1B47F4429151E65000908FF /* OCRDetectSDKForTech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCRDetectSDKForTech.framework; sourceTree = "<group>"; };
-		A1B47F4529151E65000908FF /* BioAuthEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthEngine.framework; sourceTree = "<group>"; };
-		A1B47F5329151E8F000908FF /* ToygerNative.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ToygerNative.bundle; path = ToygerNative.framework/ToygerNative.bundle; sourceTree = "<group>"; };
-		A1B47F5529151EA3000908FF /* OCRXMedia.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = OCRXMedia.bundle; path = OCRDetectSDKForTech.framework/OCRXMedia.bundle; sourceTree = "<group>"; };
-		A1B47F5729151EAF000908FF /* BioAuthEngine.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BioAuthEngine.bundle; path = BioAuthEngine.framework/BioAuthEngine.bundle; sourceTree = "<group>"; };
-		A1B47F5929151EBB000908FF /* APBToygerFacade.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = APBToygerFacade.bundle; path = APBToygerFacade.framework/APBToygerFacade.bundle; sourceTree = "<group>"; };
 		A1B47F5B29152053000908FF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		A1B47F5D29152062000908FF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		A1B47F5F29152072000908FF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
@@ -141,6 +122,23 @@
 		A1C693DC291B964100D11298 /* CLTestSettingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLTestSettingModel.h; sourceTree = "<group>"; };
 		A1C693DD291B964100D11298 /* CLTestSettingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLTestSettingModel.m; sourceTree = "<group>"; };
 		A1CB79ED290A64E100AA2CD8 /* CLPrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPrefixHeader.h; sourceTree = "<group>"; };
+		A1F1DCC129421B2800544833 /* CLLivingDetectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CLLivingDetectSDK.framework; sourceTree = "<group>"; };
+		A1F1DCC229421B2800544833 /* BioAuthEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthEngine.framework; sourceTree = "<group>"; };
+		A1F1DCC329421B2800544833 /* MPRemoteLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPRemoteLogging.framework; sourceTree = "<group>"; };
+		A1F1DCC429421B2800544833 /* BioAuthAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthAPI.framework; sourceTree = "<group>"; };
+		A1F1DCC529421B2800544833 /* APBToygerFacade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APBToygerFacade.framework; sourceTree = "<group>"; };
+		A1F1DCC629421B2800544833 /* DTFUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTFUtility.framework; sourceTree = "<group>"; };
+		A1F1DCC729421B2800544833 /* DTFMobileRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTFMobileRPC.framework; sourceTree = "<group>"; };
+		A1F1DCC829421B2800544833 /* DTFUIModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTFUIModule.framework; sourceTree = "<group>"; };
+		A1F1DCC929421B2800544833 /* ToygerNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToygerNative.framework; sourceTree = "<group>"; };
+		A1F1DCCA29421B2800544833 /* DTFIdentityManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTFIdentityManager.framework; sourceTree = "<group>"; };
+		A1F1DCCB29421B2800544833 /* DTFSensorServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTFSensorServices.framework; sourceTree = "<group>"; };
+		A1F1DCCC29421B2800544833 /* ToygerService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToygerService.framework; sourceTree = "<group>"; };
+		A1F1DCCD29421B2800544833 /* APPSecuritySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APPSecuritySDK.framework; sourceTree = "<group>"; };
+		A1F1DCDB29421B5600544833 /* CLLivingDetect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CLLivingDetect.bundle; path = CLLivingDetectSDK.framework/CLLivingDetect.bundle; sourceTree = "<group>"; };
+		A1F1DCDD29421B5D00544833 /* APBToygerFacade.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = APBToygerFacade.bundle; path = APBToygerFacade.framework/APBToygerFacade.bundle; sourceTree = "<group>"; };
+		A1F1DCDF29421B6800544833 /* BioAuthEngine.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BioAuthEngine.bundle; path = BioAuthEngine.framework/BioAuthEngine.bundle; sourceTree = "<group>"; };
+		A1F1DCE129421B7000544833 /* ToygerNative.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ToygerNative.bundle; path = ToygerNative.framework/ToygerNative.bundle; sourceTree = "<group>"; };
 		DA544B94ABF36BBE8CE1F354 /* Pods_CLLivingDetectionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLLivingDetectionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB943429826E424DD387835 /* Pods-CLLivingDetectionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLLivingDetectionDemo.release.xcconfig"; path = "Target Support Files/Pods-CLLivingDetectionDemo/Pods-CLLivingDetectionDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,44 +150,43 @@
 			files = (
 				A1C693DB291B537500D11298 /* CLConsole.framework in Frameworks */,
 				A115321328E3F198001AC37B /* AdSupport.framework in Frameworks */,
+				A1F1DCD329421B2800544833 /* DTFUtility.framework in Frameworks */,
 				A115321128E3F192001AC37B /* libz.1.2.8.tbd in Frameworks */,
+				A1F1DCD929421B2800544833 /* ToygerService.framework in Frameworks */,
 				A115320F28E3F189001AC37B /* MobileCoreServices.framework in Frameworks */,
-				A1B47F4829151E65000908FF /* BioAuthAPI.framework in Frameworks */,
-				A1B47F4A29151E65000908FF /* ZolozUIModule.framework in Frameworks */,
-				A1B47F4C29151E65000908FF /* ToygerService.framework in Frameworks */,
 				A115320D28E3F182001AC37B /* CFNetwork.framework in Frameworks */,
-				A1B47F4B29151E65000908FF /* ZolozUtility.framework in Frameworks */,
+				A1F1DCCF29421B2800544833 /* BioAuthEngine.framework in Frameworks */,
+				A1F1DCCE29421B2800544833 /* CLLivingDetectSDK.framework in Frameworks */,
 				A115320B28E3F17D001AC37B /* AudioToolbox.framework in Frameworks */,
-				A1B47F5029151E65000908FF /* APBToygerFacade.framework in Frameworks */,
+				A1F1DCDA29421B2800544833 /* APPSecuritySDK.framework in Frameworks */,
+				A1F1DCD529421B2800544833 /* DTFUIModule.framework in Frameworks */,
 				A115320928E3F174001AC37B /* libc++abi.tbd in Frameworks */,
 				A115320728E3F167001AC37B /* libc++.1.tbd in Frameworks */,
 				A115320528E3F15D001AC37B /* libz.tbd in Frameworks */,
+				A1F1DCD829421B2800544833 /* DTFSensorServices.framework in Frameworks */,
 				A15CA012292620B4005E9851 /* CLLivingDetectSDK.framework in Frameworks */,
-				A1B47F4929151E65000908FF /* MPRemoteLogging.framework in Frameworks */,
 				A115320328E3F156001AC37B /* libresolv.tbd in Frameworks */,
-				A1B47F4E29151E65000908FF /* APPSecuritySDK.framework in Frameworks */,
 				A115320128E3F14B001AC37B /* WebKit.framework in Frameworks */,
 				A1B47F5E29152063000908FF /* ImageIO.framework in Frameworks */,
+				A1F1DCD629421B2800544833 /* ToygerNative.framework in Frameworks */,
 				A1B47F6029152073000908FF /* CoreMotion.framework in Frameworks */,
 				A11531FF28E3F145001AC37B /* AVFoundation.framework in Frameworks */,
 				A11531FD28E3F13E001AC37B /* CoreMedia.framework in Frameworks */,
 				A11531F928E3EF0C001AC37B /* CoreImage.framework in Frameworks */,
-				A1B47F5129151E65000908FF /* OCRDetectSDKForTech.framework in Frameworks */,
 				A11531F728E3EF03001AC37B /* CoreLocation.framework in Frameworks */,
-				A15C9F2329234419005E9851 /* CLLivingDetectSDK.framework in Frameworks */,
+				A1F1DCD729421B2800544833 /* DTFIdentityManager.framework in Frameworks */,
 				A11531F528E3EEF8001AC37B /* QuartzCore.framework in Frameworks */,
 				A11531F328E3EEF1001AC37B /* CoreTelephony.framework in Frameworks */,
+				A1F1DCD029421B2800544833 /* MPRemoteLogging.framework in Frameworks */,
+				A1F1DCD429421B2800544833 /* DTFMobileRPC.framework in Frameworks */,
 				A11531F128E3EEE8001AC37B /* AssetsLibrary.framework in Frameworks */,
 				A11531EF28E3EEDE001AC37B /* SystemConfiguration.framework in Frameworks */,
 				A11531ED28E3EED8001AC37B /* Accelerate.framework in Frameworks */,
-				A1B47F5229151E65000908FF /* BioAuthEngine.framework in Frameworks */,
+				A1F1DCD129421B2800544833 /* BioAuthAPI.framework in Frameworks */,
+				A1F1DCD229421B2800544833 /* APBToygerFacade.framework in Frameworks */,
 				A1B47F5C29152054000908FF /* CoreFoundation.framework in Frameworks */,
 				A11531EB28E3EED0001AC37B /* CoreGraphics.framework in Frameworks */,
 				538B39B66015D8E0AE48E70D /* Pods_CLLivingDetectionDemo.framework in Frameworks */,
-				A1B47F4729151E65000908FF /* AliyunIdentityManager.framework in Frameworks */,
-				A1B47F4629151E65000908FF /* ZolozMobileRPC.framework in Frameworks */,
-				A1B47F4F29151E65000908FF /* ZolozSensorServices.framework in Frameworks */,
-				A1B47F4D29151E65000908FF /* ToygerNative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,9 +226,9 @@
 			children = (
 				A1899401291C944D0089EA07 /* CLLivingModel */,
 				A1C693D7291B533B00D11298 /* Tool */,
-				A120B23B28FED2D60004B992 /* framework */,
-				A115318628E3E88B001AC37B /* AppDelegate.h */,
+				A1F1DCC029421B2800544833 /* framework */,
 				A115318728E3E88B001AC37B /* AppDelegate.m */,
+				A115318628E3E88B001AC37B /* AppDelegate.h */,
 				A115318C28E3E88B001AC37B /* ViewController.h */,
 				A115318D28E3E88B001AC37B /* ViewController.m */,
 				A1C693DC291B964100D11298 /* CLTestSettingModel.h */,
@@ -284,31 +281,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A120B23B28FED2D60004B992 /* framework */ = {
-			isa = PBXGroup;
-			children = (
-				A1B47F5929151EBB000908FF /* APBToygerFacade.bundle */,
-				A1B47F5729151EAF000908FF /* BioAuthEngine.bundle */,
-				A1B47F5529151EA3000908FF /* OCRXMedia.bundle */,
-				A1B47F5329151E8F000908FF /* ToygerNative.bundle */,
-				A1B47F3A29151E65000908FF /* AliyunIdentityManager.framework */,
-				A15C9F2229234419005E9851 /* CLLivingDetectSDK.framework */,
-				A1B47F4329151E65000908FF /* APBToygerFacade.framework */,
-				A1B47F4129151E65000908FF /* APPSecuritySDK.framework */,
-				A1B47F3B29151E65000908FF /* BioAuthAPI.framework */,
-				A1B47F4529151E65000908FF /* BioAuthEngine.framework */,
-				A1B47F3C29151E65000908FF /* MPRemoteLogging.framework */,
-				A1B47F4429151E65000908FF /* OCRDetectSDKForTech.framework */,
-				A1B47F4029151E65000908FF /* ToygerNative.framework */,
-				A1B47F3F29151E65000908FF /* ToygerService.framework */,
-				A1B47F3929151E65000908FF /* ZolozMobileRPC.framework */,
-				A1B47F4229151E65000908FF /* ZolozSensorServices.framework */,
-				A1B47F3D29151E65000908FF /* ZolozUIModule.framework */,
-				A1B47F3E29151E65000908FF /* ZolozUtility.framework */,
-			);
-			path = framework;
-			sourceTree = "<group>";
-		};
 		A1899401291C944D0089EA07 /* CLLivingModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,6 +302,30 @@
 				A130817C2915102F005CC8FA /* CLTool.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		A1F1DCC029421B2800544833 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1DCE129421B7000544833 /* ToygerNative.bundle */,
+				A1F1DCDF29421B6800544833 /* BioAuthEngine.bundle */,
+				A1F1DCDD29421B5D00544833 /* APBToygerFacade.bundle */,
+				A1F1DCDB29421B5600544833 /* CLLivingDetect.bundle */,
+				A1F1DCC129421B2800544833 /* CLLivingDetectSDK.framework */,
+				A1F1DCC229421B2800544833 /* BioAuthEngine.framework */,
+				A1F1DCC329421B2800544833 /* MPRemoteLogging.framework */,
+				A1F1DCC429421B2800544833 /* BioAuthAPI.framework */,
+				A1F1DCC529421B2800544833 /* APBToygerFacade.framework */,
+				A1F1DCC629421B2800544833 /* DTFUtility.framework */,
+				A1F1DCC729421B2800544833 /* DTFMobileRPC.framework */,
+				A1F1DCC829421B2800544833 /* DTFUIModule.framework */,
+				A1F1DCC929421B2800544833 /* ToygerNative.framework */,
+				A1F1DCCA29421B2800544833 /* DTFIdentityManager.framework */,
+				A1F1DCCB29421B2800544833 /* DTFSensorServices.framework */,
+				A1F1DCCC29421B2800544833 /* ToygerService.framework */,
+				A1F1DCCD29421B2800544833 /* APPSecuritySDK.framework */,
+			);
+			path = framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,13 +389,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B47F6529189ADF000908FF /* CLSettingViewController.xib in Resources */,
-				A1B47F5429151E8F000908FF /* ToygerNative.bundle in Resources */,
-				A1B47F5A29151EBB000908FF /* APBToygerFacade.bundle in Resources */,
-				A1B47F5629151EA3000908FF /* OCRXMedia.bundle in Resources */,
-				A1B47F5829151EAF000908FF /* BioAuthEngine.bundle in Resources */,
+				A1F1DCDE29421B5E00544833 /* APBToygerFacade.bundle in Resources */,
 				A1C693D9291B537000D11298 /* CLConsoleBundle.bundle in Resources */,
 				A115319628E3E88C001AC37B /* LaunchScreen.storyboard in Resources */,
 				A115319328E3E88C001AC37B /* Assets.xcassets in Resources */,
+				A1F1DCDC29421B5600544833 /* CLLivingDetect.bundle in Resources */,
+				A1F1DCE229421B7000544833 /* ToygerNative.bundle in Resources */,
+				A1F1DCE029421B6800544833 /* BioAuthEngine.bundle in Resources */,
 				A115319128E3E88B001AC37B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
