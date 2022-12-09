@@ -1,28 +1,24 @@
 PODS:
-  - CL_ShanYanSDK (2.3.5.7)
   - Masonry (1.1.0)
   - MJExtension (3.4.1)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - CL_ShanYanSDK (= 2.3.5.7)
   - Masonry
   - MJExtension
   - SVProgressHUD
 
 SPEC REPOS:
   trunk:
-    - CL_ShanYanSDK
     - Masonry
     - MJExtension
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  CL_ShanYanSDK: f37fab9c96a51f57164a9f64c96df2769106a6df
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 817b765f13d6ee0120f2f9ad0ca6478a6683c402
+PODFILE CHECKSUM: ceee26bc2fe9aefa180aa0391e5982a4e88b2f79
 
 COCOAPODS: 1.11.3

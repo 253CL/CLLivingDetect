@@ -1,10 +1,10 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD" "${PODS_ROOT}/CL_ShanYanSDK/framework"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension/MJExtension.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD/SVProgressHUD.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension/MJExtension.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD/SVProgressHUD.framework/Headers" -iframework "${PODS_ROOT}/CL_ShanYanSDK/framework" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"c++.1" -framework "CL_ShanYanSDK" -framework "EAccountApiSDK" -framework "Foundation" -framework "MJExtension" -framework "Masonry" -framework "OAuth" -framework "QuartzCore" -framework "SVProgressHUD" -framework "TYRZUISDK" -framework "UIKit" -framework "account_login_sdk_noui_core" -weak_framework "Network"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension/MJExtension.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD/SVProgressHUD.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD"
+OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "MJExtension" -framework "Masonry" -framework "QuartzCore" -framework "SVProgressHUD" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/..

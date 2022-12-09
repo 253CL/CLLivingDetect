@@ -340,7 +340,6 @@
 				A115318028E3E88B001AC37B /* Frameworks */,
 				A115318128E3E88B001AC37B /* Resources */,
 				BBE4B32AEE2E40FCF8D56F43 /* [CP] Embed Pods Frameworks */,
-				0A7A2C338B810E45A5ED5F88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -404,23 +403,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A7A2C338B810E45A5ED5F88 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CLLivingDetectionDemo/Pods-CLLivingDetectionDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CLLivingDetectionDemo/Pods-CLLivingDetectionDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLLivingDetectionDemo/Pods-CLLivingDetectionDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		37C278838800A1B0C39DFD33 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
