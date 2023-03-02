@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		dq+TTBoxMv19Ifh16suoUDwsE0o=
-		</data>
 		<key>CLLivingDetect.bundle/cancel@2x.png</key>
 		<data>
 		A3iFUDUhfZ5cawwCsg0I7SaHae8=
@@ -58,7 +54,7 @@
 		</data>
 		<key>Headers/CLLivingDetectManager.h</key>
 		<data>
-		nFw6yuxm88QAxARgO86zEOkc60I=
+		jCOu/H4MNyEcf40lcikUdqvDlas=
 		</data>
 		<key>Headers/CLLivingDetectSDK.h</key>
 		<data>
@@ -70,7 +66,7 @@
 		</data>
 		<key>Headers/CLLvingConfig.h</key>
 		<data>
-		FbAIaeGbmgCl+69xam0ocW2Dgs8=
+		CojzszQ8giCis7Ae8+f9WJTGZkg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -219,11 +215,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nFw6yuxm88QAxARgO86zEOkc60I=
+			jCOu/H4MNyEcf40lcikUdqvDlas=
 			</data>
 			<key>hash2</key>
 			<data>
-			89VP39Qr9d4NqKMdAIKZ3VqQoWE7nHfYlh/0LMGmiP8=
+			29pNAcQHsund0rGz/GHJKt87Wb9TbG+gBP+y4KBhqUc=
 			</data>
 		</dict>
 		<key>Headers/CLLivingDetectSDK.h</key>
@@ -252,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FbAIaeGbmgCl+69xam0ocW2Dgs8=
+			CojzszQ8giCis7Ae8+f9WJTGZkg=
 			</data>
 			<key>hash2</key>
 			<data>
-			8Q0vPzNRD5F4tusFryKBwNn+en6JLqavzd1FRL3jctk=
+			h3PH5Ih0jC7RPrGyijbREw3mdq3qdx9SiToHVhcXqzE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

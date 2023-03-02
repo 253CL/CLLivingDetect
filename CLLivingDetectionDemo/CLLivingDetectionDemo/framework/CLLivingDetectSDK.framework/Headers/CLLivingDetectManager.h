@@ -26,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param config config
 + (void)setLivingConfig:(CLLvingConfig *)config;
 
+/// （可选方法）提前获取验证id（使用时需要在活体检测前提前1～2s调用），提高活体校验拉起速度（不建议app启动时调用）
++ (void)preGetVertyId;
+
 /// 开启活体校验
 /// @param viewController 当前显示viewcontroller
 /// @param completion 返回结果

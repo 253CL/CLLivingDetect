@@ -50,6 +50,11 @@
     [CLLivingDetectManager setLivingConfig:config];
     CLConsoleLog(@"SDK配置：%@",[config mj_JSONString]);
       
+    //TODO: 预获取验证参数，加快活体检测拉起速度（使用时需要在活体检测前提前1～2s调用）
+    //TODO: 可不调用（不建议在app启动时调用）
+    [CLLivingDetectManager preGetVertyId];
+    
+    
     [self __initBackgroundView];
     [self __initBottomView];
 }
@@ -107,9 +112,6 @@
 - (void)queryVerfyResultWithCertifyId:(NSString *)certifyId completion:(void(^)(id data , NSError * _Nullable error))handle {
     
     NSDictionary * parameters = @{@"certifyId":certifyId,@"timeStamp":[CLTool getTimeStamp]};
-//    NSString * URLString = @"http://172.18.108.194:7777/sdk/liveSDK/livingDetection/test";
-//    NSString * URLString = @"http://172.16.43.56:7777/sdk/liveSDK/livingDetection/test"; //stable
-//    NSString * URLString = @"http://172.16.40.148:7777/sdk/liveSDK/livingDetection/test"; //sit
     NSString * URLString = @"https://api.253.com/sdk/liveSDK/livingDetection/test"; //release
     
     NSMutableURLRequest * request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URLString]];

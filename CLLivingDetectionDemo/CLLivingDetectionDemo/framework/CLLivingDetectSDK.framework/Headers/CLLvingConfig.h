@@ -27,7 +27,7 @@ typedef enum : NSUInteger {
 @property(nonatomic, strong)NSNumber * returnImage;
 
 /// 是否返回录制视频地址，默认不返回，格式@(YES) or @(NO)
-@property(nonatomic, assign) NSNumber * returnVideo;
+@property(nonatomic, strong) NSNumber * returnVideo;
 
 /// 活体检测动作
 ///（默认）眨眼动作活体检测；
@@ -35,7 +35,11 @@ typedef enum : NSUInteger {
 @property(nonatomic, assign) CLLivingVerifyAction vertifyAction;
 
 ///是否自定义协议，默认为@(YES),显示协议页 ，为@(NO)需要用户自定义协议页面
-@property(nonatomic, assign)NSNumber * showProtocol;
+@property(nonatomic, strong)NSNumber * showProtocol;
+
+///修改协议可选框响应范围，不影响控件大小（自定义协议页忽略），默认修改规则为CGRectInset(bounds, -20, -20)，
+///参数传递格式：NSStringFromCGSize(CGSizeMake(25, 25))
+@property(nonatomic, strong)NSString * touchSize;
 
 + (CLLvingConfig *)defaultConfig;
 
