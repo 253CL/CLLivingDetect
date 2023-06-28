@@ -50,10 +50,6 @@
     [CLLivingDetectManager setLivingConfig:config];
     CLConsoleLog(@"SDK配置：%@",[config mj_JSONString]);
       
-    //TODO: 预获取验证参数，加快活体检测拉起速度（使用时需要在活体检测前提前1～2s调用）
-    //TODO: 可不调用（不建议在app启动时调用）
-    [CLLivingDetectManager preGetVertyId];
-    
     
     [self __initBackgroundView];
     [self __initBottomView];
