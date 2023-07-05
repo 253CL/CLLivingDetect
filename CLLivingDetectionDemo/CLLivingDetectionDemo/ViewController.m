@@ -38,6 +38,9 @@
     [super viewDidLoad];
     [SVProgressHUD setDefaultStyle:(SVProgressHUDStyleDark)];
 
+    
+    NSLog(@"【当前版本号】：%@",[CLLivingDetectManager getVersion]);
+    
     ///便于demo调整参数设置
     CLTestSettingModel * cacheModel = [CLTestSettingModel cl_cacheModel];
     CLLvingConfig * config = [CLTestSettingModel configWith:cacheModel];
