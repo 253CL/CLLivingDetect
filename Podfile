@@ -12,6 +12,7 @@ target 'CLLivingDetectionDemo' do
 pod 'Masonry'
 pod 'SVProgressHUD'
 pod 'MJExtension'
+#pod 'Wormholy'
 #pod 'CL_ShanYanSDK', '2.3.5.7'
   # Pods for CLLivingDetectionDemo
 

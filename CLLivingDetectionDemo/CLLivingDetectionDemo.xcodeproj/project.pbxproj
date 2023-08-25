@@ -38,6 +38,7 @@
 		A15CA012292620B4005E9851 /* CLLivingDetectSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15CA011292620B4005E9851 /* CLLivingDetectSDK.framework */; };
 		A1899407291C944D0089EA07 /* NSObject+JMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1899404291C944D0089EA07 /* NSObject+JMModel.m */; };
 		A1899408291C944D0089EA07 /* JMClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A1899405291C944D0089EA07 /* JMClassInfo.m */; };
+		A19AEEC82A5BB43100107D04 /* APPSecuritySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19AEEC72A5BB43100107D04 /* APPSecuritySDK.framework */; };
 		A1B47F5C29152054000908FF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F5B29152053000908FF /* CoreFoundation.framework */; };
 		A1B47F5E29152063000908FF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F5D29152062000908FF /* ImageIO.framework */; };
 		A1B47F6029152073000908FF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B47F5F29152072000908FF /* CoreMotion.framework */; };
@@ -59,7 +60,6 @@
 		A1F1DCD729421B2800544833 /* DTFIdentityManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCCA29421B2800544833 /* DTFIdentityManager.framework */; };
 		A1F1DCD829421B2800544833 /* DTFSensorServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCCB29421B2800544833 /* DTFSensorServices.framework */; };
 		A1F1DCD929421B2800544833 /* ToygerService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCCC29421B2800544833 /* ToygerService.framework */; };
-		A1F1DCDA29421B2800544833 /* APPSecuritySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1DCCD29421B2800544833 /* APPSecuritySDK.framework */; };
 		A1F1DCDC29421B5600544833 /* CLLivingDetect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1F1DCDB29421B5600544833 /* CLLivingDetect.bundle */; };
 		A1F1DCDE29421B5E00544833 /* APBToygerFacade.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1F1DCDD29421B5D00544833 /* APBToygerFacade.bundle */; };
 		A1F1DCE029421B6800544833 /* BioAuthEngine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1F1DCDF29421B6800544833 /* BioAuthEngine.bundle */; };
@@ -109,6 +109,7 @@
 		A1899404291C944D0089EA07 /* NSObject+JMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JMModel.m"; sourceTree = "<group>"; };
 		A1899405291C944D0089EA07 /* JMClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMClassInfo.m; sourceTree = "<group>"; };
 		A1899406291C944D0089EA07 /* NSObject+JMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JMModel.h"; sourceTree = "<group>"; };
+		A19AEEC72A5BB43100107D04 /* APPSecuritySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APPSecuritySDK.framework; sourceTree = "<group>"; };
 		A1B47F5B29152053000908FF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		A1B47F5D29152062000908FF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		A1B47F5F29152072000908FF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
@@ -134,7 +135,6 @@
 		A1F1DCCA29421B2800544833 /* DTFIdentityManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTFIdentityManager.framework; sourceTree = "<group>"; };
 		A1F1DCCB29421B2800544833 /* DTFSensorServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTFSensorServices.framework; sourceTree = "<group>"; };
 		A1F1DCCC29421B2800544833 /* ToygerService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToygerService.framework; sourceTree = "<group>"; };
-		A1F1DCCD29421B2800544833 /* APPSecuritySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APPSecuritySDK.framework; sourceTree = "<group>"; };
 		A1F1DCDB29421B5600544833 /* CLLivingDetect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CLLivingDetect.bundle; path = CLLivingDetectSDK.framework/CLLivingDetect.bundle; sourceTree = "<group>"; };
 		A1F1DCDD29421B5D00544833 /* APBToygerFacade.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = APBToygerFacade.bundle; path = APBToygerFacade.framework/APBToygerFacade.bundle; sourceTree = "<group>"; };
 		A1F1DCDF29421B6800544833 /* BioAuthEngine.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BioAuthEngine.bundle; path = BioAuthEngine.framework/BioAuthEngine.bundle; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 				A1F1DCCF29421B2800544833 /* BioAuthEngine.framework in Frameworks */,
 				A1F1DCCE29421B2800544833 /* CLLivingDetectSDK.framework in Frameworks */,
 				A115320B28E3F17D001AC37B /* AudioToolbox.framework in Frameworks */,
-				A1F1DCDA29421B2800544833 /* APPSecuritySDK.framework in Frameworks */,
+				A19AEEC82A5BB43100107D04 /* APPSecuritySDK.framework in Frameworks */,
 				A1F1DCD529421B2800544833 /* DTFUIModule.framework in Frameworks */,
 				A115320928E3F174001AC37B /* libc++abi.tbd in Frameworks */,
 				A115320728E3F167001AC37B /* libc++.1.tbd in Frameworks */,
@@ -252,31 +252,31 @@
 		A11531D228E3E965001AC37B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A1B47F5F29152072000908FF /* CoreMotion.framework */,
-				A1B47F5D29152062000908FF /* ImageIO.framework */,
-				A1B47F5B29152053000908FF /* CoreFoundation.framework */,
-				A15CA011292620B4005E9851 /* CLLivingDetectSDK.framework */,
+				A11531EC28E3EED8001AC37B /* Accelerate.framework */,
 				A115321228E3F198001AC37B /* AdSupport.framework */,
-				A115321028E3F192001AC37B /* libz.1.2.8.tbd */,
-				A115320E28E3F189001AC37B /* MobileCoreServices.framework */,
-				A115320C28E3F182001AC37B /* CFNetwork.framework */,
+				A11531F028E3EEE8001AC37B /* AssetsLibrary.framework */,
 				A115320A28E3F17D001AC37B /* AudioToolbox.framework */,
-				A115320828E3F174001AC37B /* libc++abi.tbd */,
-				A115320628E3F167001AC37B /* libc++.1.tbd */,
-				A115320428E3F15D001AC37B /* libz.tbd */,
-				A115320228E3F156001AC37B /* libresolv.tbd */,
-				A115320028E3F14B001AC37B /* WebKit.framework */,
 				A11531FE28E3F145001AC37B /* AVFoundation.framework */,
-				A11531FC28E3F13E001AC37B /* CoreMedia.framework */,
+				A115320C28E3F182001AC37B /* CFNetwork.framework */,
+				A15CA011292620B4005E9851 /* CLLivingDetectSDK.framework */,
+				A1B47F5B29152053000908FF /* CoreFoundation.framework */,
+				A11531EA28E3EED0001AC37B /* CoreGraphics.framework */,
 				A11531F828E3EF0C001AC37B /* CoreImage.framework */,
 				A11531F628E3EF03001AC37B /* CoreLocation.framework */,
-				A11531F428E3EEF8001AC37B /* QuartzCore.framework */,
+				A11531FC28E3F13E001AC37B /* CoreMedia.framework */,
+				A1B47F5F29152072000908FF /* CoreMotion.framework */,
 				A11531F228E3EEF1001AC37B /* CoreTelephony.framework */,
-				A11531F028E3EEE8001AC37B /* AssetsLibrary.framework */,
-				A11531EE28E3EEDE001AC37B /* SystemConfiguration.framework */,
-				A11531EC28E3EED8001AC37B /* Accelerate.framework */,
-				A11531EA28E3EED0001AC37B /* CoreGraphics.framework */,
+				A1B47F5D29152062000908FF /* ImageIO.framework */,
+				A115320628E3F167001AC37B /* libc++.1.tbd */,
+				A115320828E3F174001AC37B /* libc++abi.tbd */,
+				A115320228E3F156001AC37B /* libresolv.tbd */,
+				A115321028E3F192001AC37B /* libz.1.2.8.tbd */,
+				A115320428E3F15D001AC37B /* libz.tbd */,
+				A115320E28E3F189001AC37B /* MobileCoreServices.framework */,
 				DA544B94ABF36BBE8CE1F354 /* Pods_CLLivingDetectionDemo.framework */,
+				A11531F428E3EEF8001AC37B /* QuartzCore.framework */,
+				A11531EE28E3EEDE001AC37B /* SystemConfiguration.framework */,
+				A115320028E3F14B001AC37B /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -322,8 +322,8 @@
 				A1F1DCC929421B2800544833 /* ToygerNative.framework */,
 				A1F1DCCA29421B2800544833 /* DTFIdentityManager.framework */,
 				A1F1DCCB29421B2800544833 /* DTFSensorServices.framework */,
+				A19AEEC72A5BB43100107D04 /* APPSecuritySDK.framework */,
 				A1F1DCCC29421B2800544833 /* ToygerService.framework */,
-				A1F1DCCD29421B2800544833 /* APPSecuritySDK.framework */,
 			);
 			path = framework;
 			sourceTree = "<group>";
