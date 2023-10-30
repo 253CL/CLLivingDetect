@@ -3,7 +3,7 @@
 //  APFaceDetectBiz
 //
 //  Created by 晗羽 on 8/25/16.
-//  Copyright © 2016 . All rights reserved.
+//  Copyright © 2016 DTF. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -45,6 +45,7 @@ typedef void (^APFAlertExtraAction)();
 
 - (void)exitWithResult:(APBResultType)result failReason:(NSString *)failReason retCodeSub:(NSString *)retCodeSub retMessageSub:(NSString *)retMessageSub;
 
+- (void)eventQuitWithCompletionCallback:(BioAuthExecCallback)callback;
 /**
  *  用户选择重试
  */

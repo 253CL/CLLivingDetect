@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by yukun.tyk on 9/13/16.
-//  Copyright © 2016  . All rights reserved.
+//  Copyright © 2016  DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -36,6 +36,7 @@
  *  @return JSON object
  */
 + (instancetype)APBLoadFromJSON:(NSString *)json;
++ (instancetype)APBLoadFrom:(NSDictionary *)dict forObject:(id) obj;
 
 - (void)APBOverrideFromJSON:(NSString *)json;
 - (void)APBOverrideFromJSONData:(NSData *)json;

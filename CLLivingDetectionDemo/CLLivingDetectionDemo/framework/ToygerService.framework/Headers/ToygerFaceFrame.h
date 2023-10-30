@@ -3,7 +3,7 @@
 //  ToygerAlgorithm
 //
 //  Created by 王伟伟 on 2018/1/22.
-//  Copyright © 2018年 . All rights reserved.
+//  Copyright © 2018年 DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -26,7 +26,9 @@ typedef NS_ENUM(NSInteger, ToygerMessage) {
     TOYGER_Message_Right_Yaw,
     TOYGER_Message_Mouth_Open,
     TOYGER_Message_Lip_Move,
+    TOYGER_Message_Photinus,
     TOYGER_Message_Stack_Time,
+    TOYGER_Message_Face_Too_More,
 };
 
 typedef NS_ENUM(NSInteger, ToygerStaticMessage) {
@@ -35,7 +37,8 @@ typedef NS_ENUM(NSInteger, ToygerStaticMessage) {
     TOYGER_Static_Message_LeftYAWLiveness,
     TOYGER_Static_Message_RightYawLiveness,
     TOYGER_Static_Message_LipMoveLiveness,
-    TOYGER_Static_Message_MouthOpenLiveness
+    TOYGER_Static_Message_MouthOpenLiveness,
+    TOYGER_Static_Message_PhotinusLiveness
 };
 
 @interface ToygerFaceFrame : ToygerFrame<NSCopying>

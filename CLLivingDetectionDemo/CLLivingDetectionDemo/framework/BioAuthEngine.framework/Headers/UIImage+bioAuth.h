@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by 王伟伟 on 2017/8/23.
-//  Copyright © 2017年 . All rights reserved.
+//  Copyright © 2017年 DTF. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -14,11 +14,6 @@
 + (nullable UIImage *)bioAuth_imageWithColor:(UIColor *_Nullable)color size:(CGSize)size;
 
 #pragma mark - Resize -
-- (nullable UIImage *)resize:(CGSize)sz;
-- (nullable UIImage *)subRect:(CGRect)r;
-- (nullable UIImage *)gaussiamBlur;
-
-- (nullable UIImage *)bioAuth_Resize:(CGSize)sz;
 - (nullable UIImage *)bioAuth_SubRect:(CGRect)r;
 - (nullable UIImage *)bioAuth_GaussiamBlur;
 + (nullable UIImage *)bioAuth_imageWithCVPixelBuffer:(CVPixelBufferRef _Nullable )buffer;

@@ -42,6 +42,8 @@
 "APBToygerFacade:拿起手机眨眨眼"="Harap kedipkan mata";
 "APBToygerFacade:拿起手机向左摇头"="Harap menoleh ke kiri";
 "APBToygerFacade:拿起手机向右摇头"="Harap menoleh ke kanan";
+"APBToygerFacade:向左摇头"="Harap menoleh ke kiri";
+"APBToygerFacade:向右摇头"="Harap menoleh ke kanan";
 
 "APBToygerFacade:正在处理"="Memproses";
 "APBToygerFacade:首次使用，请开通刷脸"="Aktifkan pengenalan wajah untuk melanjutkan";
@@ -55,3 +57,4 @@
 "APBToygerFacade:未能识别人脸"="Tidak ada wajah terdeteksi";
 "APBToygerFacade:人脸检测中"="Pengenalan wajah dalam proses";
 "APBToygerFacade:刷脸失败次数过多，请稍后再试"="Pengenalan wajah terlalu sering dilakukan. Harap coba lagi nanti";
+"APBToygerFacade:请保持单人操作"=" ";

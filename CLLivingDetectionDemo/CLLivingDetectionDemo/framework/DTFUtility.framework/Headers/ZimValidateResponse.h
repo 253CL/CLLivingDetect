@@ -3,7 +3,7 @@
 //  DTFIdentityManager
 //
 //  Created by richard on 27/08/2017.
-//  Copyright © 2017  . All rights reserved.
+//  Copyright © 2017  DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

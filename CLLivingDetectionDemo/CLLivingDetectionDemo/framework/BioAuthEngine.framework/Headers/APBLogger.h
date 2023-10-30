@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by yukun.tyk on 12/8/15.
-//  Copyright © 2015 . All rights reserved.
+//  Copyright © 2015 DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -26,35 +26,15 @@ extern NSString *const kDebugNotiName;      //log信息发送的通知名称
         [NSString stringWithFormat:fmt, ##__VA_ARGS__], __PRETTY_FUNCTION__, __FILE_NAME__, __LINE__, __DATE__, __TIME__);\
     }
 
-    #ifdef ALIPAY       //debug and alipay
-//
-        #define LOG_DBG(fmt, ...)       BIOAUTH_LOG(fmt, ##__VA_ARGS__); 
-//APLogDebug(@"[BIOAUTH]", fmt, ##__VA_ARGS__);
-//        #define LOG_INFO(fmt, ...)      APLogInfo(@"[BIOAUTH]", fmt, ##__VA_ARGS__); BIOAUTH_LOG(fmt, ##__VA_ARGS__);
-//        #define LOG_ERROR(fmt, ...)     APLogError(@"[BIOAUTH]", fmt, ##__VA_ARGS__); BIOAUTH_LOG(fmt, ##__VA_ARGS__);
-
-    #else               //debug and not alipay
-
-        #define LOG_DBG(fmt, ...)       BIOAUTH_LOG(fmt, ##__VA_ARGS__);
-        #define LOG_INFO(fmt, ...)      BIOAUTH_LOG(fmt, ##__VA_ARGS__);
-        #define LOG_ERROR(fmt, ...)     BIOAUTH_LOG(fmt, ##__VA_ARGS__);
-
-    #endif
+#define LOG_DBG(fmt, ...)       BIOAUTH_LOG(fmt, ##__VA_ARGS__);
+#define LOG_INFO(fmt, ...)      BIOAUTH_LOG(fmt, ##__VA_ARGS__);
+#define LOG_ERROR(fmt, ...)     BIOAUTH_LOG(fmt, ##__VA_ARGS__);
 
 #else                   //release
 
-    #ifdef ALIPAY       //release and alipay
-
-        #define LOG_DBG(fmt, ...)
-//        #define LOG_INFO(fmt, ...)      APLogInfo(@"[BIOAUTH]", fmt, ##__VA_ARGS__);
-//        #define LOG_ERROR(fmt, ...)     APLogError(@"[BIOAUTH]", fmt, ##__VA_ARGS__);
-
-    #else               //release and not alipay
-
-        #define LOG_DBG(fmt, ...)
-        #define LOG_INFO(fmt, ...)
-        #define LOG_ERROR(fmt, ...)
-    #endif
+#define LOG_DBG(fmt, ...)
+#define LOG_INFO(fmt, ...)
+#define LOG_ERROR(fmt, ...)
 
 #endif
 

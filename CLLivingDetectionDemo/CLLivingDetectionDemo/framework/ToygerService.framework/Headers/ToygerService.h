@@ -3,7 +3,7 @@
 //  Toyger
 //
 //  Created by 守逸 on 2018/1/22.
-//  Copyright © 2018年 . All rights reserved.
+//  Copyright © 2018年 DTF. All rights reserved.
 //
 
 #ifndef ToygerService_h
@@ -15,12 +15,11 @@
 #import <ToygerService/ToygerFaceFrame.h>
 #import <ToygerService/ToygerDocFrame.h>
 #import <ToygerService/ToygerFrame.h>
+#import <UIKit/UIKit.h>
 
 #endif /* ToygerService_h */
 
-#import <ToygerService/ToygerSensorHandler.h>
-#import <ToygerService/ToygerSensorData.h>
-#import <UIKit/UIKit.h>
+
 
 //! Project version number for ToygerService.
 FOUNDATION_EXPORT double ToygerServiceVersionNumber;

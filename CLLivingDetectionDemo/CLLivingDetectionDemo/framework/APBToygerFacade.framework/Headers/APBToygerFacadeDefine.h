@@ -3,7 +3,7 @@
 //  APBToygerFacade
 //
 //  Created by shouyi.www on 27/02/2017.
-//  Copyright © 2017 . All rights reserved.
+//  Copyright © 2017 DTF. All rights reserved.
 //
 
 #ifndef APBToygerFacadeDefine_h

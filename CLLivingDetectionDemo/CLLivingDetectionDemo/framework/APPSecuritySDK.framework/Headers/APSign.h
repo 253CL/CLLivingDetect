@@ -10,6 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+extern NSString * const APSE_SIGN_MODE_NORMAL;
+extern NSString * const APSE_SIGN_MODE_ENHANCE;
+extern NSString * const APSE_SIGN_MODE_NORMAL_ASYNC;
+extern NSString * const APSE_SIGN_MODE_ENHANCE_ASYNC;
+
 @interface APSign : NSObject
 
 /*

@@ -1,6 +1,0 @@
-framework module DTFMobileRPC {
-  umbrella header "DTFMobileRPC.h"
-
-  export *
-  module * { export * }
-}

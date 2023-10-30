@@ -3,7 +3,7 @@
 //  FaceEyePrint
 //
 //  Created by yukun.tyk on 12/14/15.
-//  Copyright © 2015 . All rights reserved.
+//  Copyright © 2015 DTF. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

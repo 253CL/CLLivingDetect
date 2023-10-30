@@ -3,7 +3,7 @@
 //  APFaceDetectBiz
 //
 //  Created by 晗羽 on 1/7/16.
-//  Copyright © 2016 . All rights reserved.
+//  Copyright © 2016 DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -18,6 +18,8 @@
  *  @return 生成一个配置对象
  */
 - (instancetype)initWithBisConfig:(NSString *)biscfg;
+
+- (instancetype)initWithBisDocConfig:(NSString *)biscfg;
 /**
  *  bisToken
  *
@@ -28,6 +30,8 @@
 - (NSString * )ioscfg;
 
 - (NSString * )iosvoicecfg;
+
+- (APBToygerSoluCfg *)solucfg;
 
 - (APBToygerRemoteConfig *)bisConfig;
 

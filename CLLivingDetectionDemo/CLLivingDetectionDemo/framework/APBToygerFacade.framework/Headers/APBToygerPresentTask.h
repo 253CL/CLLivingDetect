@@ -3,12 +3,12 @@
 //  APFaceDetectBiz
 //
 //  Created by 晗羽 on 8/26/16.
-//  Copyright © 2016 . All rights reserved.
+//  Copyright © 2016 DTF. All rights reserved.
 //
 
 #import <APBToygerFacade/APBToygerBaseTask.h>
-#import <DTFSensorServices/CameraService.h>
-#import <DTFUIModule/DTFFaceViewProtocol.h>
+#import <DTFUtility/CameraService.h>
+#import <BioAuthEngine/DTFFaceViewProtocol.h>
 /**
  *  @author Skye Ying, 16-08-26 13:08:04
  *

@@ -3,17 +3,15 @@
 //  ToygerAlgorithm
 //
 //  Created by 王伟伟 on 2018/1/22.
-//  Copyright © 2018年 . All rights reserved.
+//  Copyright © 2018年 DTF. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <ToygerService/ToygerPublicDefine.h>
 #import <ToygerService/ToygerConfig.h>
 
 #ifdef USE_SENSOR
-
-#import <ToygerService/ToygerSensorHandler.h>
-
+#import "ToygerSensorData.h"
 #endif
 
 @class ToygerServiceInstance;
@@ -91,15 +89,16 @@
 
  @return Toyger算法实例
  */
-- (instancetype)initWithType:(ToygerServiceType)type andExtInfo:(NSDictionary *)extInfo NS_DESIGNATED_INITIALIZER;
 
+- (instancetype)initWithType:(ToygerServiceType)type andExtInfo:(NSDictionary *)extInfo errorPtr:(NSError **)errorPtr NS_DESIGNATED_INITIALIZER;
+
+#ifdef ZDOC
 /**
- 初始化Toyger算法.(老接口)
- 提前初始化可以加快算法的启动速度
- 
- @return Toyger算法实例
+ 设置证件扫描配置
+ @param config
  */
-- (instancetype)initWithType:(ToygerServiceType)type AndPubKey:(NSString *)pubKey NS_DESIGNATED_INITIALIZER;
+- (void)setDocConfig:(ToygerDocConfig *)config;
+#endif
 
 /**
  Toyger算法处理图片
@@ -112,6 +111,8 @@
  Toyger处理最佳图
  */
 - (void)processBestImage;
+
+- (void)photinusFinish;
 
 #ifdef USE_SENSOR
 

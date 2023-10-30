@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by richard on 24/02/2018.
-//  Copyright © 2018  . All rights reserved.
+//  Copyright © 2018  DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -14,11 +14,19 @@
 
 - (NSString *)gatewayURL;
 
+- (NSArray *)backupURL;
+
 - (NSDictionary *)headConfig;
 
 - (NSString *)DTFInitRequestOperationType;
 
 - (NSString *)validateRequestOperationType;
+
+- (NSString *)SMSVerifyRequestOperationType;
+
+- (NSString *)SMSCodeRequestOperationType;
+
+- (NSString *)zimOCRIdentifyRequestOperationType;
 
 - (NSString *)bioAuthEngineVersion;
 

@@ -3,29 +3,22 @@
 //  DTFIdentityManager
 //
 //  Created by mengbingchuan on 2022/11/23.
-//  Copyright © 2022 Alipay. All rights reserved.
+//  Copyright © 2022 DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "ZimRpcManager.h"
+#import <DTFUtility/DTFFaceIdentityProtocol.h>
 
-//version 2.2.0
-
-@class ZIMResponse;
+//version 2.3.2
 
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^ZIMCallback)(ZIMResponse *response);
 
-@interface DTFIdentityManager : NSObject
+@interface DTFIdentityManager : NSObject<DTFFaceIdentityProtocol>
 
 + (DTFIdentityManager *)sharedInstance;
-
-+ (NSDictionary *)getMetaInfo;
-
-- (void)setRpcProxy:(id<DTFRPCProxyProtocol>)proxy;
-
-- (void)verifyWith:(NSString *)zimId extParams:(NSDictionary *)params onCompletion:(ZIMCallback)callback;
 
 @end
 

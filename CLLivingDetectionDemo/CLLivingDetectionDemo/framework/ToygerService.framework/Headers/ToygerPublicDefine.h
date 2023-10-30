@@ -3,7 +3,7 @@
 //  ToygerAlgorithm
 //
 //  Created by 王伟伟 on 2018/1/22.
-//  Copyright © 2018年 . All rights reserved.
+//  Copyright © 2018年 DTF. All rights reserved.
 //
 
 #ifndef ToygerAlgorithmPublicDefine_h
@@ -14,6 +14,7 @@
 #define LOCALVERIFY
 #define USE_SENSOR
 #define HUMMINGBIRD
+#define ZDOC
 
 #import <Foundation/Foundation.h>
 
@@ -44,6 +45,11 @@ typedef NS_ENUM(NSUInteger, ToygerServiceType) {
     ToygerServiceType_Card,
     ToygerServiceType_Face_LocalRegist,
     ToygerServiceType_Face_LocalMatch,
+};
+
+typedef NS_ENUM(NSUInteger, TSToygerInitFailType) {
+    TSToygerInitFailTypeInvalidAlgorithm,
+    TSToygerInitFailTypeToygerFileError
 };
 
 TOYGER_EXPORT ToygerServiceEventKey ToygerServiceEventDarkScreen;

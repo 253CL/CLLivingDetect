@@ -3,15 +3,16 @@
 //  BioAuthEngine
 //
 //  Created by yukun.tyk on 3/21/16.
-//  Copyright © 2016 . All rights reserved.
+//  Copyright © 2016 DTF. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <BioAuthEngine/AFEStatusBar.h>
 #import <WebKit/WebKit.h>
+#import "APBToygerRemoteConfig.h"
 @protocol AFEWebGuideViewDelegate <NSObject>
 
-- (void)onButtonBegin;
+- (void)onButtonBegin:(BOOL)suitableType;
 - (void)onButtonCancel;
 
 @optional
@@ -28,6 +29,8 @@
 @property(strong,nonatomic) WKWebView *wkwebView;
 
 @property(nonatomic, assign)BOOL loaded;
+@property(nonatomic, strong)APBToygerAlertConfig *toygerAlertConfig;
+@property(nonatomic, strong)UIViewController *currentViewController;
 
 - (void)setWebGuideViewDelegate:(id<AFEWebGuideViewDelegate>)webGuideViewDeleage;
 - (void)setURL:(NSURL *)url;

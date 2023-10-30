@@ -3,7 +3,7 @@
 //  AppArch
 //
 //  Created by yukun.tyk on 8/29/16.
-//  Copyright © 2016 . All rights reserved.
+//  Copyright © 2016 DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -13,6 +13,14 @@
 @class APBToygerSceneEnv, APBToygerVideo, APFRemoteConfig, APBToygerCollect, APBDragonflyLivenessConfig,APBGeminiLivenessConfig;
 @class APBToygerNavigatePage, APBToygerAlgorithm, APBToygerTips;
 
+@interface APBToygerSoluCfg: NSObject
+
+@property(nonatomic, copy) NSArray *order;
+
+@property(nonatomic, strong) APBToygerNavigatePage *navi;
+
+@end
+
 /**
  *  协议配置
  */
@@ -20,15 +28,18 @@
 
 @property(nonatomic, strong)APBToygerSceneEnv *sceneEnv;
 @property(nonatomic, strong)APBToygerNavigatePage *navi;
+@property(nonatomic, copy) NSDictionary *suitable;
 @property(nonatomic, strong)APBToygerCollect *coll;
-@property (nonatomic, copy) NSDictionary *upload;
-@property (nonatomic, copy) NSDictionary *algorithm;
+@property(nonatomic, copy) NSDictionary *upload;
+@property(nonatomic, copy) NSDictionary *algorithm;
+@property(nonatomic, copy) NSArray *scanAlgorithm;
 @property(nonatomic, strong)APBToygerTips * faceTips;
 @property(nonatomic, assign)NSInteger env;
 @property(nonatomic, assign)NSInteger ui;
 @property(nonatomic, copy)NSString *sdkVersion;
 @property(nonatomic, strong)APBToygerVideo * video;
 @property(nonatomic, copy)NSString *verifyMode;
+@property(nonatomic, copy)NSString *token;
 
 +(APBToygerRemoteConfig *)defaultConfig;
 + (void)loadFromJSON:(NSString *)json toObject:(NSObject*) obj;
@@ -82,6 +93,14 @@
 @property(nonatomic, assign)NSInteger mineDscore;
 @property(nonatomic, assign)NSInteger mineVideo;
 @property(nonatomic, strong)NSArray<NSString *> *actionMode;
+@property(nonatomic, assign) NSInteger pageNo;
+@property(nonatomic, copy) NSString *docType;
+@property(nonatomic, assign) NSInteger retryLimit;
+@property(nonatomic, assign) NSInteger scanTimeout;
+@property(nonatomic, copy) NSString *uiType;
+@property(nonatomic, copy) NSString *docInputMode;
+@property(nonatomic, assign) CGFloat docUIRatio;
+@property(nonatomic, copy) NSString *multiLangVer;
 
 + (APBToygerCollect *)defaulConfig;
 
@@ -131,6 +150,7 @@
 @property (nonatomic, copy) NSString *bottomText;
 @property (nonatomic, copy) NSString *topText_rectwidth;
 @property (nonatomic, copy) NSString *topText_noface;
+@property (nonatomic, copy) NSString *topText_face_too_more;
 @property (nonatomic, copy) NSString *topText_blur;
 @property (nonatomic, copy) NSString *topText_light;
 @property (nonatomic, copy) NSString *topText_pitch;

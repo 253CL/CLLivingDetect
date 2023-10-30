@@ -16,7 +16,6 @@ FOUNDATION_EXPORT const unsigned char DTFUtilityVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DTFUtility/PublicHeader.h>
 
-#import <DTFUtility/DTFBase64.h>
 #import <DTFUtility/APBSystem.h>
 #import <DTFUtility/NSObject+APBJSON.h>
 #import <DTFUtility/NSObject+DTFUtilityJsonString.h>
@@ -30,3 +29,9 @@ FOUNDATION_EXPORT const unsigned char DTFUtilityVersionString[];
 #import <DTFUtility/ZimValidateRequest.h>
 #import <DTFUtility/ZimValidateResponse.h>
 #import <DTFUtility/ZDeviceInfo.h>
+#import <DTFUtility/ZimModelDownloader.h>
+#import <DTFUtility/ZIMResponse.h>
+#import <DTFUtility/CameraService.h>
+#import <DTFUtility/NSString+DTFBase64.h>
+#import <DTFUtility/DTFConstant.h>
+#import <DTFUtility/DTFServerError.h>

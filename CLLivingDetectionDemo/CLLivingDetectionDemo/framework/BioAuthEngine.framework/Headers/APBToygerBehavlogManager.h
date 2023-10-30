@@ -3,7 +3,7 @@
 //  APFaceDetectBiz
 //
 //  Created by yukun.tyk on 9/8/16.
-//  Copyright © 2016 . All rights reserved.
+//  Copyright © 2016 DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

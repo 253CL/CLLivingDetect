@@ -3,10 +3,15 @@
 //  BioAuthEngine
 //
 //  Created by richard on 22/03/2018.
-//  Copyright © 2018  . All rights reserved.
+//  Copyright © 2018  DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+
+
+static NSString *kPrivateUCID = @"UC-YWRLSB-160425-02";
+static NSString *kPrivateSeedId = @"techSeed";
+
 
 @interface DTFLogMonitor : NSObject
 
@@ -16,48 +21,32 @@
 
 + (void)setUploadBlock:(void (^) (NSDictionary *,void (^)(BOOL)))block;
 
-- (instancetype)initWithBizInfo:(NSDictionary *)bizInfo;
-
 - (void)addPublicLog:(NSDictionary *)logDic;
+- (void)setupBaseExtInfo;
 
-- (void)addMonitorLogWithParam3:(NSObject *)p3
-                         param4:(NSDictionary *)p4
-                         seedId:(NSString *)seed;
+- (void)addDebugMonitorLogWithSeedId:(NSString *)seedId
+                            extParam:(NSDictionary *)extParam;
 
-/*
- *  添加埋点, param1为MD5(bis_token), param2=sequence_id
- *  param3: 第二个埋点数据, NSString或者NSNumber
- *  param4: 第三个埋点数据, NSString或者NSNumber
- *  seed:   埋点seesId
- *  ucid:   埋点ucid
- *  formattedParam: 附加参数
- */
-- (void)addMonitorLoagWithActionId:(NSString *)actionId
-                            param3:(NSObject *)p3
-                            param4:(NSDictionary *)p4
-                            seedId:(NSString *)seed
-                              ucid:(NSString *)ucid
-                    formattedParam:(NSDictionary *)param;
+- (void)addMonitorLogWithSeedId:(NSString *)seedId
+                       extParam:(NSDictionary *)extParam;
 
-//添加私有埋点
-- (void)addPrivateMonitorLoagWithparam1:(NSObject *)p1
-                                 param2:(NSObject *)p2
-                                 param3:(NSDictionary *)p3;
+- (void)addMonitorLogWithSeedId:(NSString *)seedId
+                           ucId:(NSString *)ucId
+                       extParam:(NSDictionary *)extParam;
 
-+ (void)addPrivateMonitorLogWithBisToken:(NSString *)bisToken
-                                  param2:(NSString *)p2
-                                  param3:(NSString *)p3
-                                  param4:(NSDictionary *)p4;
+- (void)addMonitorLogWithSeedId:(NSString *)seedId
+                          param:(NSString *)param
+                       extParam:(NSDictionary *)extParam;
+// param: 可搜索
+- (void)addMonitorLogWithSeedId:(NSString *)seedId
+                           ucId:(NSString *)ucId
+                          param:(NSString *)param
+                       extParam:(NSDictionary *)extParam;
+
 
 +(NSDictionary *)getPublicLogDic:(NSDictionary *)publicParam;
 
 +(NSDictionary *)getExtLogDic:(NSDictionary *)p4;
-
-+(void)DTF_writeLogWithActionId:(NSString *)actionId
-                        extParams:(NSArray *)extParams
-                            appId:(NSString *)appId
-                             seed:(NSString *)seed
-                             ucId:(NSString *)ucId;
 
 + (void)distantUploadlog;
 

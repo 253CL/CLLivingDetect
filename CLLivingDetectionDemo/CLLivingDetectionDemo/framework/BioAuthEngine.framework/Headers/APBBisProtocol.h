@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by yukun.tyk on 3/15/16.
-//  Copyright © 2016 . All rights reserved.
+//  Copyright © 2016 DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

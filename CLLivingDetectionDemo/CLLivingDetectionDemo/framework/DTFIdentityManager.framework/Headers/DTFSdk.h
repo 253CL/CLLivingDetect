@@ -3,7 +3,7 @@
 //  DTFIdentityManager
 //
 //  Created by richard on 22/11/2017.
-//  Copyright © 2017  . All rights reserved.
+//  Copyright © 2017  DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -17,6 +17,10 @@
 /* IPV6的初始化接口 只有你的网络环境强制要求是IPV6的时候，才调用initIPv6。
  */
 + (void)initIPv6;
+
++ (NSString *)getVersion;
+
++ (void)preload:(NSDictionary *)param completion:(void (^)(BOOL success))completion;
 
 /*同步获取设备指纹token
 1）SDK初始化后需要经过一段时间计算才能获取到deviceToken，建议间隔3秒以上；

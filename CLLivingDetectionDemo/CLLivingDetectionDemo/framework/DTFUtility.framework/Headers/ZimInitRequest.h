@@ -19,6 +19,8 @@
 @property (nonatomic,strong) NSString* produceNode ;
 @property (nonatomic,strong) NSString* bizData ;
 @property (nonatomic,strong) NSString* metaInfo ;
+@property (nonatomic,strong) NSString* originAliyunEncToken ;
+
 @end
 
 

@@ -42,6 +42,8 @@
 "APBToygerFacade:拿起手机眨眨眼"="눈을 깜빡이세요";
 "APBToygerFacade:拿起手机向左摇头"="좌측으로 고개를 돌립니다";
 "APBToygerFacade:拿起手机向右摇头"="우측으로 고개를 돌립니다";
+"APBToygerFacade:向左摇头"="좌측으로 고개를 돌립니다";
+"APBToygerFacade:向右摇头"="우측으로 고개를 돌립니다";
 
 "APBToygerFacade:正在处理"="처리 중";
 "APBToygerFacade:首次使用，请开通刷脸"="안면 인식을 활성화하여 계속 진행합니다";
@@ -55,3 +57,5 @@
 "APBToygerFacade:未能识别人脸"="감지된 얼굴이 없습니다";
 "APBToygerFacade:人脸检测中"="얼굴 인식 중";
 "APBToygerFacade:刷脸失败次数过多，请稍后再试"="안면 인식이 연속으로 실행되었습니다. 나중에 다시 시도하세요";
+"APBToygerFacade:请保持单人操作"=" ";
+

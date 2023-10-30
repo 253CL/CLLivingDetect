@@ -118,6 +118,7 @@ struct TGPoint
 struct TGQualityConfig
 {
     int max_face_num = 3;
+    int detect_face_num = 1;
 #ifdef LADYBIRD_SELECTOR
     int face_distance_threshold = 80;
 #endif
@@ -154,9 +155,12 @@ struct TGQualityConfig
 };
 
 struct TGCommonConfig{
-    int log_level;              //0 - None, 1 - light, 2 - heavy
+    int optional_face_count = 0;      // 备选人脸图数量
+    int each_action_pick_count = 0;   // 每个动作需要备选人脸图数量
+    int log_level;                    //0 - None, 1 - light, 2 - heavy
     int product_code;
     int useXNN = 0;
+    int speed = 100;
     bool auto_complete = true;
     std::string xnn_engine_config = "common:cpunum=2,xnnnextgen=1|xNNSec:enginenames=xInt8$";// xnn init config for wallet
 };
@@ -179,6 +183,11 @@ struct TGDocConfig{
     int face_side_exposure;
     int verso_side_exposure;
     int papers_stability;
+    
+    float corners[8] = {0.};    //frame四个角点坐标，tl.x tl.y, tr.x, tr.y, br.x br.y bl.x bl.y
+    int thickness;              //算法阈值
+    float boundaryThreshold;
+    int stackTime;
 };
 #endif
 struct TGLivenessConfig
@@ -271,6 +280,7 @@ public:
     long data_len;
     int width;
     int height;
+    int bytesPerRow;
     int rotation;
     TGFrameFormat format;
     TGFrameType frame_type;
@@ -343,6 +353,11 @@ struct TGFaceAttr
     bool mouth_open;
     
     bool lip_movement;
+    
+    // 当前动作索引
+    long action_index;
+    // 属性记录的时间
+    long record_time;
 };
 
 enum TGMessage{
@@ -363,7 +378,9 @@ enum TGMessage{
     TG_Message_Left_Yaw_Guide,
     TG_Message_Right_Yaw_Guide,
     TG_Message_Mouth_Open_Guide,
-    TG_Message_Lip_Move_Guide
+    TG_Message_Lip_Move_Guide,
+    TG_Message_Photinus_Guide,
+    TG_Message_Face_Too_More,
 };
 
 enum TGStaticMessage{
@@ -373,6 +390,7 @@ enum TGStaticMessage{
     TGStaticMessage_RightYawLiveness,
     TGStaticMessage_MouthOpenLiveness,
     TGStaticMessage_LipMoveLiveness,
+    TGStaticMessage_PhotinusLiveness,
 };
 
 
@@ -382,7 +400,8 @@ enum TGActionLiveness{
     TG_Action_Left_YAW,
     TG_Action_Right_YAW,
     TG_Action_Mouth_Open,
-    TG_Action_Lip_Move
+    TG_Action_Lip_Move,
+    TG_Action_Photinus
 };
 
 
@@ -431,6 +450,7 @@ struct TGFaceInfo
 {
     TGFrame frame;
     TGFaceAttr attr;
+    std::vector<struct TGFaceInfo> optionalFaceInfos;
 };
 
 struct TGDepthFaceInfo
@@ -463,11 +483,15 @@ struct TGDocAttr
 
 struct TGDocState
 {
-    bool has_doc;
-    bool is_completed;
-    bool is_reflected;
-    bool is_blur;
-    bool is_copy;
+    float top_score;
+    float bottom_score;
+    float left_score;
+    float right_score;
+    
+    bool top_ok;
+    bool bottom_ok;
+    bool left_ok;
+    bool right_ok;
 };
 
 struct TGDocInfo{
@@ -507,7 +531,7 @@ struct ToygerCallback{
 #endif
     
 #ifdef ZDOC
-    void (*handleScanCompleted)(void *cb_receiver, int result,const std::vector<TGDocInfo>&info,const std::map<std::string, float> &ext);
+    void (*handleScanCompleted)(void *cb_receiver, const TGDocState &state,const TGFrame &frame);
     void (*handleDocStateUpdated)(void *cb_receiver, const TGDocState &state, const TGDocAttr &attr);
 #endif
 };
@@ -568,6 +592,11 @@ bool tg_config(void *tg_instance, ToygerCallback *callback, void *cb_receiver, c
  @return 是否数据完整
  */
 bool tg_process_image(void *tg_instance, const std::vector<TGFrame> &frames, const TGFrame &depthFrame, const TGFaceAttr &fpp_attr);
+
+/**
+ 炫彩结束
+ */
+void tg_photinus_finish(void *instance);
 
 #if defined JASMINE
 /**

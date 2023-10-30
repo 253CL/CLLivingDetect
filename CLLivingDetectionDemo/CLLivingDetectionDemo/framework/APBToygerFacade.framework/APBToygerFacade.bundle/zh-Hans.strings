@@ -3,7 +3,7 @@
   APBToygerFacade
 
   Created by shouyi.www on 2017/6/1.
-  Copyright © 2017年 . All rights reserved.
+  Copyright © 2017年 DTF. All rights reserved.
 */
 
 
@@ -51,6 +51,8 @@
 "APBToygerFacade:拿起手机眨眨眼"="拿起手机，眨眨眼";
 "APBToygerFacade:拿起手机向左摇头"="拿起手机，向左摇头";
 "APBToygerFacade:拿起手机向右摇头"="拿起手机，向右摇头";
+"APBToygerFacade:向左摇头"="向左摇头";
+"APBToygerFacade:向右摇头"="向右摇头";
 
 "APBToygerFacade:正在处理"="正在处理";
 "APBToygerFacade:首次使用，请开通刷脸"="首次使用，请开通刷脸";
@@ -64,3 +66,4 @@
 "APBToygerFacade:未能识别人脸"="未能识别人脸";
 "APBToygerFacade:人脸检测中"="人脸检测中";
 "APBToygerFacade:刷脸失败次数过多，请稍后再试"="刷脸失败次数过多，请稍后再试";
+"APBToygerFacade:请保持单人操作"="请保持单人操作";

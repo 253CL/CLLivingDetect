@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by richard on 20/09/2017.
-//  Copyright © 2017 . All rights reserved.
+//  Copyright © 2017 DTF. All rights reserved.
 //
 
 #ifndef BioAuthEngine_h

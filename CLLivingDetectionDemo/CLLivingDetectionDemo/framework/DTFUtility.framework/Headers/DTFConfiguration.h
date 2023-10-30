@@ -3,17 +3,18 @@
 //  DTFSensorServices
 //
 //  Created by sanyuan.he on 2020/2/25.
-//  Copyright © 2020  . All rights reserved.
+//  Copyright © 2020  DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIDevice.h>
 #import <UIKit/UIKit.h>
+#import "ZimModelDownloader.h"
+#import "DTFSDKConfiguration.h"
 
 NS_ASSUME_NONNULL_BEGIN
 #define ZIM_PLATFORM_SETTING_INFO_ALIYUN @"aliyun"
 #define ZIM_PLATFORM_SETTING_INFO_ALITECH @"alitech"
-
 
 @interface DTFConfiguration : NSObject
 
@@ -28,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, strong, nullable) NSString *ocrInfo;
 @property(nonatomic, strong, nullable) NSData *faceData; // add for OCR
 @property(nonatomic, strong, nullable) NSData *countryData;  // add for OCR
+@property(nonatomic, strong, nullable) NSString *imageCount;
 
 @property(nonatomic, assign) UIDeviceOrientation orientation;
 @property(nonatomic, assign) BOOL returnContent;
@@ -35,6 +37,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, assign) BOOL simpleFlags; //安全SDK的Flags
 @property(nonatomic, assign) BOOL tempddsFlags;//是否需要做安全加密
 @property(nonatomic, assign) BOOL iPv6Flags;
+
+@property(nonatomic, strong) DTFSDKConfiguration *remoteConfig;
 
 + (DTFConfiguration *)sharedInstance;
 

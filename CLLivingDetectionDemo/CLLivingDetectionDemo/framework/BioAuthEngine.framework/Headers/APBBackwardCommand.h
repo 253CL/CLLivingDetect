@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by yukun.tyk on 11/26/15.
-//  Copyright © 2015 . All rights reserved.
+//  Copyright © 2015 DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -18,6 +18,9 @@ typedef NS_ENUM(NSInteger, APBBackwardCommandType) {
     BACKWARD_COMMNAD_GLOBAL_TIMER =         305,        //全局timer操作
     BACKWARD_COMMNAD_UPLOAD_DATA =          400,        //合并上传
     BACKWARD_COMMNAD_STOP_SCANCE =          401,        //关闭扫描
+    BACKWARD_COMMNAD_OCRUPLOAD_DATA =       402,        //EKYC OCR上传
+    BACKWARD_COMMNAD_OCRUPLOADCONFIRM_DATA =       403,        //EKYC OCR确认
+
 };
 
 typedef NS_ENUM(NSInteger, APBTimerCommandType) {

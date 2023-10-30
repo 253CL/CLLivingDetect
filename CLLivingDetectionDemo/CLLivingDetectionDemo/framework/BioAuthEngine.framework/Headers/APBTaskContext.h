@@ -3,11 +3,11 @@
 //  BioAuthEngine
 //
 //  Created by yukun.tyk on 11/27/15.
-//  Copyright © 2015 . All rights reserved.
+//  Copyright © 2015 DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <BioAuthAPI/APBResponse.h>
+#import "APBResponse.h"
 
 /**
  任务状态定义

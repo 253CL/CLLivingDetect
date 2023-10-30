@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by shouyi.www on 2017/5/19.
-//  Copyright © 2017年 . All rights reserved.
+//  Copyright © 2017年 DTF. All rights reserved.
 //
 
 #ifndef BioAuthCommonSetting_h
@@ -68,6 +68,7 @@ static NSString *const kBioAuthParamServerFail = @"serverFail";
 static NSString *const kBioAuthParamNetworkFail = @"networkFail";
 static NSString *const kBioAuthParamNetworkError1006 = @"NetworkError1006";
 static NSString *const kBioAuthParamFaceFail = @"faceFail";
+static NSString *const kBioAuthParamUploadImageDataNil = @"uploadImageDataNil";
 static NSString *const kBioAuthParamAlertViewTitle = @"kBioAuthParamAlertViewTitle";
 static NSString *const kBioAuthParamAlertViewMessage = @"kBioAuthParamAlertViewMessage";
 static NSString *const kBioAuthParamAlertViewFirstButtonTitle = @"kBioAuthParamAlertViewFirstButtonTitle";
@@ -269,6 +270,7 @@ static NSString *const kBioAuthParamClickXBack = @"clickXback";
 static NSString *const kBioAuthParamSystemInterrupt = @"systemInterrupt";
 static NSString *const kBioAuthParamProcessInterrupt = @"processInterrupt";
 static NSString *const kBioAuthParamCameraPermission = @"cameraPermission";
+static NSString *const kBioAuthParamCameraOpenFail = @"cameraOpenFail";
 static NSString *const kBioAuthParamErrorSystemVersion = @"errorSystemVersion";
 static NSString *const kBioAuthParamReason = @"reason";
 static NSString *const kBioAuthParamMoniton = @"motion";
@@ -293,6 +295,10 @@ static NSString *const kBioAuthParamLogType = @"logType";
 static NSString *const kBioAuthParamUIVersion = @"ui_version";
 static NSString *const kBioAuthFailReasonUserQuit = @"用户主动退出";
 static NSString *const kBioAuthVerifyId = @"verifyId";
+static NSString *const kBioAuthParamToygerInit = @"toygerInit";
+static NSString *const kBioAuthParamToygerFileState = @"toygerFileState";
+static NSString *const kBioAuthFailInsufficientDisk = @"手机存储空间不足";
+static NSString *const kBioAuthFailNoPermissionRecording = @"没有录音权限";
 
 #pragma mark - 埋点相关 -
 
@@ -343,6 +349,8 @@ static NSString *const kBioAuthMonitorExitGuidePage = @"exitGuidePage";
 static NSString *const kBioAuthMonitorExitGuidePageUCID = @"UC-YWRLSB-161114-03";
 
 static NSString *const kBioAuthMonitorClickStartCapture = @"clickStartCapture";
+static NSString *const kBioAuthMonitorClickStartCaptureForSuitable = @"suitable";
+static NSString *const kBioAuthMonitorClickStartCaptureForSuitableError = @"suitableError";
 static NSString *const kBioAuthMonitorClickStartCaptureUCID = @"UC-YWRLSB-161114-04";
 
 static NSString *const kBioAuthMonitorEntrySDK = @"entrySDK";
@@ -418,6 +426,7 @@ static NSString *const kBioAuthMergeValidateKey = @"mergeValidate";
 static NSString *const kAPBGWOperationType = @"oprationType";             //NSString, oprationType
 static NSString *const kAPBGWReturnType = @"returnType";                //NSString, returnType
 static NSString *const kAPBGWGatewayURL = @"gatewayURL";               //NSString, gatewayURL
+static NSString *const kAPBGWBackupURL = @"backupURL";               //NSString, backupUrl
 static NSString *const kAPBGWHeadConfig = @"headConfig";
 #endif /* BioAuthCommonSetting_h */
 

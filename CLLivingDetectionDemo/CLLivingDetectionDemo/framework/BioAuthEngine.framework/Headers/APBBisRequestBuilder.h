@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by 晗羽 on 21/04/2018.
-//  Copyright © 2018 . All rights reserved.
+//  Copyright © 2018 DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -18,5 +18,13 @@
                                         behaveLog:(BisBehavLog *)behavlog
                                     andCypherData:(NSString *) aesKeyData
                                           encrypt:(BOOL) encrypt;
+
++ (APBBisUploadGwRequest *)buildEKYCRequestWithContentData:(NSString *)content
+                                                 behaveLog:(BisBehavLog *)behavlog
+                                             andCypherData:(NSString *)aesKeyData;
+
++ (NSString *)rsaImage:(NSString *) pubKey image:(UIImage *)image;
+
++ (UIImage *)compressImage:(UIImage *)image;
 
 @end

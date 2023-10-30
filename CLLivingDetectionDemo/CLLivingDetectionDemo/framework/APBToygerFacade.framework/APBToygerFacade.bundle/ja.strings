@@ -42,6 +42,8 @@
 "APBToygerFacade:拿起手机眨眨眼"="まばたきしてください";
 "APBToygerFacade:拿起手机向左摇头"="頭を左に";
 "APBToygerFacade:拿起手机向右摇头"="頭を右に";
+"APBToygerFacade:向左摇头"="頭を左に";
+"APBToygerFacade:向右摇头"="頭を右に";
 
 "APBToygerFacade:正在处理"="処理中";
 "APBToygerFacade:首次使用，请开通刷脸"="顔認識を有効化して続行します";
@@ -55,3 +57,4 @@
 "APBToygerFacade:未能识别人脸"="顔が検出されません";
 "APBToygerFacade:人脸检测中"="顔を認識中です";
 "APBToygerFacade:刷脸失败次数过多，请稍后再试"="顔認識が頻繁に実行されています。後でもう一度やり直してください";
+"APBToygerFacade:请保持单人操作"=" ";

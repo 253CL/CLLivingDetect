@@ -3,7 +3,7 @@
 //  BioAuthEngine
 //
 //  Created by richard on 19/03/2018.
-//  Copyright © 2018  . All rights reserved.
+//  Copyright © 2018  DTF. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

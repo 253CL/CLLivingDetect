@@ -3,7 +3,7 @@
 //  DTFIdentityManager
 //
 //  Created by 晗羽 on 25/07/2017.
-//  Copyright © 2017  . All rights reserved.
+//  Copyright © 2017  DTF. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

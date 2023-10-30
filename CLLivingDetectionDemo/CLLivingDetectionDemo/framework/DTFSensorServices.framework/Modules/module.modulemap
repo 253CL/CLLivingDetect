@@ -1,6 +1,0 @@
-framework module DTFSensorServices {
-  umbrella header "DTFSensorServices.h"
-
-  export *
-  module * { export * }
-}
